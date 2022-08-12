@@ -1,0 +1,144 @@
+﻿<%-- _lcid="1046" _version="12.0.4518" _dal="1" --%>
+<%-- _LocalBinding --%>
+<%@ Page language="C#" MasterPageFile="~masterurl/default.master"    Inherits="Microsoft.SharePoint.WebPartPages.WebPartPage,Microsoft.SharePoint,Version=12.0.0.0,Culture=neutral,PublicKeyToken=71e9bce111e9429c" meta:progid="SharePoint.WebPartPage.Document" %>
+<%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %> <%@ Import Namespace="Microsoft.SharePoint" %> <%@ Register Tagprefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<asp:Content ContentPlaceHolderId="PlaceHolderPageTitle" runat="server">
+	<SharePoint:EncodedLiteral runat="server" text="<%$Resources:wss,webpagecreation_bp_title%>" EncodeMethod='HtmlEncode'/>
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderPageTitleInTitleArea" runat="server">
+	<table>
+		<tr>
+			<td class="ms-pagetitle" style='width: 100%'>
+			<WebPartPages:WebPartZone runat="server" Title="loc:TitleBar" ID="TitleBar" AllowLayoutChange="false" AllowPersonalization="false"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone></td>
+			<td class="ms-propertysheet" nowrap="true">
+			<SharePoint:BpScript runat="server"/></td>
+		</tr>
+	</table>
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderAdditionalPageHead" runat="server">
+	<META Name="GENERATOR" Content="Microsoft SharePoint">
+	<META Name="ProgId" Content="SharePoint.WebPartPage.Document">
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<META Name="CollaborationServer" Content="SharePoint Team Web Site">
+	<script>
+	var navBarHelpOverrideKey = "wssmain";
+	</script>
+	<SharePoint:RssLink runat="server"/>
+	<SharePoint:ScriptLink language="javascript" name="bpstd.js" runat="server"/>
+	<style>
+	Div.ms-titleareaframe {
+		height: 100%;
+	}
+	.ms-pagetitleareaframe table {
+		background: none;
+	}
+	.style1 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #006633;
+}
+.style2 {
+	font-weight: bold;
+	font-size: 16px;
+	color: #006633;
+}
+	</style>
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderSearchArea" runat="server">
+	<SharePoint:DelegateControl runat="server"
+		ControlId="SmallSearchInputBox"/>
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderLeftActions" runat="server">
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderPageDescription" runat="server">
+	<SharePoint:ProjectProperty Property="Description" runat="server"/>
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderBodyRightMargin" runat="server">
+	<div height=100% class="ms-pagemargin"><IMG SRC="/_layouts/images/blank.gif" width=10 height=1 alt=""></div>
+</asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderPageImage" runat="server"></asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderLeftNavBar" runat="server"></asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderNavSpacer" runat="server"></asp:Content>
+<asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
+	<table class="esp" style="width: 96%">
+		<tr>
+			<td>
+				<span class="n2">Processo </span><span class="style1">SIMPLESTEC 
+				de Desenvolvimento de Software</span><br><br>
+				<a name="1._Ciclo_de_Vida_">
+				<span class="n3">1. </span><span class="style2">Processo</span></a><p>
+				O modelo do processo proposto para a Empresa é 
+				definido abaixo:</p>
+				<p>
+				<map name="FPMap0" id="FPMap0">
+				<area href="atendimento/atendimento.aspx" shape="rect" coords="4, 310, 129, 388">
+				<area href="requisitos/requisitos.htm" shape="rect" coords="220, 136, 336, 210">
+				<area href="planejamento/planejamento.htm" shape="rect" coords="374, 139, 490, 210">
+				<area coords="545, 84, 676, 157" shape="rect" href="desenvolvimento/desenvolvimento.htm">
+				<area href="liberacao/liberacao.htm" shape="rect" coords="676, 190, 809, 268">
+				</map>
+				<img alt="Processo SIMPLESTEC de Desenvolvimento de Sofware" src="../images/PSDS.jpg" usemap="#FPMap0" border="0"></p>
+				<center></center>
+				<p>
+				<!--
+				O Processo SIMPLESTEC de Desenvolvimento de Software 
+				é um&nbsp; de desenvolvimento de software proposto pelo 
+				SEPG para a Empresa. Entende-se que este será um modelo ideal, 
+				pois basicamente atende aos princípios que norteiam o MPS.BR 
+				nível G e também se adéqua ao processo de desenvolvimento 
+				atual, sem alterações conflitantes.&nbsp; 
+				-->
+				</p>
+				<p>				
+				O Processo SIMPLESTEC de Desenvolvimento de Software é composto por quatro fases principais: <em>
+				Requisitos, Planejamento, Desenvolvimento e Liberação. </em>Contém dois 
+				processos de entrada chamados<em> Análise Comercial</em> e<em> Atendimento</em>, 
+				que objetiva o levantamento inicial dos requisitos para um novo 
+				produto ou para a evolução do produto, respectivamente. Possui 
+				ainda três processos gerenciamento e acompanhamento chamados <em>
+				Gerência de Requisitos (GRE), Gerência de Projeto (GPR) e 
+				Gerência de Qualidade (GQA).</em></p>
+				<div class="links">
+				Processos modelados até o momento:
+				<br>
+					<div>
+					<ul>
+						<li>
+						<a href="atendimento/atendimento.aspx">Atendimento</a></li>
+						<li>
+						<a href="requisitos/requisitos.htm">Fase: Requisitos (beta)</a> 
+						</li>
+						<li>
+						<a href="planejamento/planejamento.htm">Fase: 
+						Planejamento (beta)</a></li>
+						<li>
+						<a href="desenvolvimento/desenvolvimento.htm">Fase: 
+						Desenvolvimento (beta)</a></li>
+						<li>
+						<a href="liberacao/liberacao.htm">Fase: Liberação (beta)</a></li>
+					</ul>
+					</div>
+				</div>
+				<p>
+				<!--
+				As atividades para o novo ciclo de vida estão em fase de estudo 
+				de adequação, devendo as fases de <em>Concepção</em> e <em>
+				Elaboração</em> serem concluídos em meados de janeiro de 2008. A 
+				institucionalização deverá acontecer em março do mesmo ano.
+				-->
+				</p>
+				<!--
+				<center>
+					<div class="citacao">
+					<cite>"Processo Unificado é uma tentativa de apoiar-se nos melhores
+					recursos e características dos <strong>modelos convencionais</strong> de processo de software, mas caracterizá-los
+					de um modo que implemente muitos dos princípios de <strong>desenvolvimento ágil</strong> de softwares."</cite>
+					<div align="right"><strong><em>Roger Pressman</em></strong></div> 
+					</div>
+				</center>	
+				<p>&nbsp;</p>	
+				-->		
+			</td>
+		</tr>
+	</table>
+</asp:Content>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="7" Name="Liberação" NameU="Liberação">
+			<Layer IX="0">
+				<Name>Conector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Fluxograma</Name>
+				<NameUniv>Flowchart</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="1" UniqueID="{5148FD89-3D69-40EE-A27B-F8333E53995B}" Name="Suporte vertical" NameU="Vertical holder" Master="0">
+					<Text>Processo Simplestec de Desenvolvimento de Software</Text>
+					<XForm>
+						<PinX Unit="MM">0.003334645669291</PinX>
+						<PinY Unit="MM">8.962937007874016</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{727568C1-56EC-4E0D-9DF9-86347DA769D4}" Name="Faixa.156" NameU="Faixa.156" Master="4">
+					<Text>Legenda</Text>
+					<XForm>
+						<PinX Unit="MM">4.806484251968504</PinX>
+						<PinY Unit="MM">8.569236220472442</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{26A438D9-A9C6-4AE0-BC3E-12C59B2FEE55}" Name="Faixa.108" NameU="Faixa.108" Master="4">
+					<Text>Liberação</Text>
+					<XForm>
+						<PinX Unit="MM">0.397035433070866</PinX>
+						<PinY Unit="MM">8.569236220472442</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{FF5BB767-230F-4491-AFE9-499A702A8198}" Name="Atividade" NameU="Atividade" Master="6">
+					<XForm>
+						<PinX Unit="MM">1.428507874015748</PinX>
+						<PinY Unit="MM">5.942716535433071</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>Fechar release</HLURL:Description>
+										<HLURL:Address>../06.01.fecharrelease.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>file://M:\Projeto MPS.BR\4. Melhoria do Processo\06.01.fecharrelease.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="13" UniqueID="{28B83CEA-EBB9-434A-84C5-7FD7A47735E8}" Name="Processo.40" NameU="Process.40">
+					<Text>Fechar release</Text>
+					<XForm>
+						<PinX Unit="MM">1.436357751480395</PinX>
+						<PinY Unit="MM">5.918110236220473</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="14" UniqueID="{3E998CA3-7126-4F73-806D-11BF766EBB0D}" Name="Sheet.14" NameU="Sheet.14">
+					<Text>ANL</Text>
+					<XForm>
+						<PinX Unit="MM">0.800578828717355</PinX>
+						<PinY Unit="MM">6.114960629921261</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="20" UniqueID="{4D4F7738-2315-4B12-B138-B75F3AD05C55}" Name="Documento.74" NameU="Document.74">
+					<Text>COM
+VIS
+REQ</Text>
+					<XForm>
+						<PinX Unit="MM">0.885176268733665</PinX>
+						<PinY Unit="MM">5.498425196850394</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="21" UniqueID="{6F9E4C81-20AA-4B77-A655-932CBC5CCA2E}" Name="Sheet.21" NameU="Sheet.21">
+					<Text>RLN</Text>
+					<XForm>
+						<PinX Unit="MM">2.007224287182365</PinX>
+						<PinY Unit="MM">6.241535433067243</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="22" UniqueID="{8FDCF218-308D-4745-AC85-8753BA0E405D}" Name="Dynamic connector" NameU="Dynamic connector" Master="7">
+					<XForm>
+						<PinX Unit="MM">1.428507874015748</PinX>
+						<PinY Unit="MM">6.782779527559056</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="33" UniqueID="{F9EA9860-C75D-4F9C-9111-67A114FF4CD2}" Name="Dynamic connector.33" NameU="Dynamic connector.33" Master="7">
+					<XForm>
+						<PinX Unit="MM">2.564322318409529</PinX>
+						<PinY Unit="MM">5.952559055118111</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="32" UniqueID="{02FD96BD-EE95-41A7-B1BB-9C458F0A594E}" Name="Atividade.32" NameU="Atividade.32" Master="6">
+					<XForm>
+						<PinX Unit="MM">3.684437007874016</PinX>
+						<PinY Unit="MM">5.962401574803151</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>Homologar produto junto ao cliente</HLURL:Description>
+										<HLURL:Address>../06.02.homologar.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>file://M:\Projeto MPS.BR\4. Melhoria do Processo\06.02.homologar.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="34" UniqueID="{2F2BA61D-9C69-482D-A484-A6325A0E378A}" Name="Processo.40" NameU="Process.40">
+					<Text>Homologar Produto junto ao Cliente</Text>
+					<XForm>
+						<PinX Unit="MM">3.692286885338663</PinX>
+						<PinY Unit="MM">5.937795275590553</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="35" UniqueID="{6F33442D-4908-4696-8025-542BC06997EC}" Name="Sheet.35" NameU="Sheet.35">
+					<Text>GP
+ANI</Text>
+					<XForm>
+						<PinX Unit="MM">3.056507962575622</PinX>
+						<PinY Unit="MM">6.134645669291341</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{7B425D93-88DE-4D04-A30D-77F69E4245EF}" Name="Documento.74" NameU="Document.74">
+					<Text>COM
+RLN
+REQ
+PCA</Text>
+					<XForm>
+						<PinX Unit="MM">3.141105402591933</PinX>
+						<PinY Unit="MM">5.445669291338583</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="42" UniqueID="{2EE0BDED-59F6-4B02-914E-27E2700C6A90}" Name="Sheet.42" NameU="Sheet.42">
+					<Text>DAH
+TEH</Text>
+					<XForm>
+						<PinX Unit="MM">4.263153421040633</PinX>
+						<PinY Unit="MM">6.306889763775905</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="54" UniqueID="{686C544D-FF51-46BD-9732-B7935D879620}" Name="Dynamic connector.54" NameU="Dynamic connector.54" Master="7">
+					<XForm>
+						<PinX Unit="MM">3.682769685039370</PinX>
+						<PinY Unit="MM">5.037204724409451</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="44" UniqueID="{8AAC6EC9-C110-4898-9044-0349834BCB12}" Name="Atividade.44" NameU="Atividade.44" Master="6">
+					<XForm>
+						<PinX Unit="MM">3.681102362204725</PinX>
+						<PinY Unit="MM">2.478149606299213</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>Implantar produto junto ao cliente</HLURL:Description>
+										<HLURL:Address>../06.03.implantar.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>file://M:\Projeto MPS.BR\4. Melhoria do Processo\06.03.implantar.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="45" UniqueID="{7E264727-37A3-4DE8-9869-E519D2743E48}" Name="Processo.40" NameU="Process.40">
+					<Text>Implantar produto em Cliente</Text>
+					<XForm>
+						<PinX Unit="MM">3.688952239669372</PinX>
+						<PinY Unit="MM">2.453543307086615</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="46" UniqueID="{BAAB7344-E22D-41B3-8665-8D97FD7528BF}" Name="Sheet.46" NameU="Sheet.46">
+					<Text>ANI
+GP</Text>
+					<XForm>
+						<PinX Unit="MM">3.053173316906332</PinX>
+						<PinY Unit="MM">2.650393700787403</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="52" UniqueID="{1979E3C6-531D-483B-AC06-A602D5308371}" Name="Documento.74" NameU="Document.74">
+					<Text>COM
+PCA
+IMP</Text>
+					<XForm>
+						<PinX Unit="MM">3.137770756922642</PinX>
+						<PinY Unit="MM">2.027309055118110</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="53" UniqueID="{4432309D-0B3B-4736-B42F-A0BC8170FD72}" Name="Sheet.53" NameU="Sheet.53">
+					<Text>IMP</Text>
+					<XForm>
+						<PinX Unit="MM">4.259818775371342</PinX>
+						<PinY Unit="MM">2.783267716535434</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="87" UniqueID="{F03BB3C7-5D7F-4029-BA86-E6F33012D68D}" Name="Artefatos" NameU="Artefatos" Master="15">
+					<Text> ARTEFATOS:
+
+ - SMS: Solicitação de Manutenção de Software
+ - COM: Componente do Produto
+ - RLN: Notas de Release
+ - REQ: Documento de Requisitos
+ - PCA: Plano Básico de Configuração e Ambiente
+ - DAH: Documento de Aceitação da Homologação
+ - TEH: Termo de Homologação
+ - IMP: Documento de Implantação (Deployment)
+ - MAN: Manual para Treinamento</Text>
+					<XForm>
+						<PinX Unit="MM">6.086011811023623</PinX>
+						<PinY Unit="MM">5.868897637795277</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="55" UniqueID="{F440849F-8AE4-4C1A-9A3A-EEB2F3069A7D}" Name="Papéis" NameU="Papéis" Master="16">
+					<Text> PAPÉIS:
+ - ANL: Analista de Sistemas
+ - GP: Gerente de Projetos 
+ - ANI: Analista de Infra-Estrutura</Text>
+					<XForm>
+						<PinX Unit="MM">6.086011811023623</PinX>
+						<PinY Unit="MM">7.529724409448820</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{4D3A0BBD-7E50-4105-8DB6-4883579DFCBE}" Name="Legenda" NameU="Legenda" Master="14">
+					<XForm>
+						<PinX Unit="MM">6.082681102362205</PinX>
+						<PinY Unit="MM">2.398838582677166</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="58" UniqueID="{420EE216-ED27-4D83-960D-CFEF2F7D8DAD}" Name="Documento.148" NameU="Document.148">
+					<XForm>
+						<PinX Unit="MM">5.309595919828200</PinX>
+						<PinY Unit="MM">2.223336254475233</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="59" UniqueID="{CFEFF7FC-13BC-498E-8DD6-18A61C663D9A}" Name="Terminador.138" NameU="Terminator.138">
+					<XForm>
+						<PinX Unit="MM">5.309595919828200</PinX>
+						<PinY Unit="MM">4.164833072892809</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="65" UniqueID="{22BD8B1B-C847-48B2-AB85-7CD2460AE026}" Name="Sheet.65" NameU="Sheet.65">
+					<Text>Início ou Fim do processo</Text>
+					<XForm>
+						<PinX Unit="MM">6.314606657122399</PinX>
+						<PinY Unit="MM">4.149846067151406</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="66" UniqueID="{5608D4EC-E417-492C-8E6C-6B2C3C94F0CA}" Name="Sheet.66" NameU="Sheet.66">
+					<Text>Atividade</Text>
+					<XForm>
+						<PinX Unit="MM">6.314606657122399</PinX>
+						<PinY Unit="MM">3.801739117178189</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="67" UniqueID="{9853601E-14AC-4073-809A-40CC64547532}" Name="Sheet.67" NameU="Sheet.67">
+					<Text>Artefato de saída</Text>
+					<XForm>
+						<PinX Unit="MM">6.314606657122399</PinX>
+						<PinY Unit="MM">2.642290824841232</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="68" UniqueID="{A7A24962-A77C-43CF-812F-9CE3EC3E0010}" Name="Sheet.68" NameU="Sheet.68">
+					<Text>Papel</Text>
+					<XForm>
+						<PinX Unit="MM">6.314606657122399</PinX>
+						<PinY Unit="MM">3.025821585010839</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="69" UniqueID="{7DE4DE06-4A3F-4FF2-A4E9-24DC85EA4AF8}" Name="Processo.140" NameU="Process.140">
+					<XForm>
+						<PinX Unit="MM">5.309595919828200</PinX>
+						<PinY Unit="MM">3.803101586616267</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="70" UniqueID="{7206E92F-947A-4E1E-93E0-1D7E642A11E8}" Name="Sheet.70" NameU="Sheet.70">
+					<Text>Condição</Text>
+					<XForm>
+						<PinX Unit="MM">6.314606657122399</PinX>
+						<PinY Unit="MM">3.403221351267180</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="71" UniqueID="{79C40FFD-F382-461F-B5DC-DE36F9C88B92}" Name="Decisão.141" NameU="Decision.141">
+					<XForm>
+						<PinX Unit="MM">5.309595919828200</PinX>
+						<PinY Unit="MM">3.418889552208261</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="72" UniqueID="{61540EF7-DC91-44D3-B937-51EE16592116}" Name="Sheet.72" NameU="Sheet.72">
+					<Text>Artefato de entrada</Text>
+					<XForm>
+						<PinX Unit="MM">6.314606657122399</PinX>
+						<PinY Unit="MM">2.243773058930223</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="73" UniqueID="{B0F9FD65-73CC-4EDD-A638-AF43412132BF}" Name="Documento com marcas.34" NameU="Tagged document.34">
+					<XForm>
+						<PinX Unit="MM">5.309595919828200</PinX>
+						<PinY Unit="MM">2.642290824841232</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="78" UniqueID="{0BD3F420-1A00-4F75-8A9C-0FE4055D17FB}" Name="Sheet.78" NameU="Sheet.78">
+					<Text>LEGENDA:</Text>
+					<XForm>
+						<PinX Unit="MM">5.786713866857549</PinX>
+						<PinY Unit="MM">4.434803728442820</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="81" UniqueID="{8B0205A7-4DA5-4A71-9581-EE2D9C951615}" Name="Sheet.81" NameU="Sheet.81">
+					<Text>Referência fora da página
+(Saída)</Text>
+					<XForm>
+						<PinX Unit="MM">6.317520260558337</PinX>
+						<PinY Unit="MM">1.806809212598425</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="82" UniqueID="{D8CF8F51-7145-466B-8E43-3463164FD2FD}" Name="Sheet.82" NameU="Sheet.82">
+					<Text>Referência fora da página
+(Entrada)</Text>
+					<XForm>
+						<PinX Unit="MM">6.304419481746598</PinX>
+						<PinY Unit="MM">1.338037992125984</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="84" UniqueID="{26110F5E-5C49-40BF-9C3A-9C1BBC129D92}" Name="Sheet.84" NameU="Sheet.84">
+					<Text>Referência na página</Text>
+					<XForm>
+						<PinX Unit="MM">6.283752174837212</PinX>
+						<PinY Unit="MM">0.845892795275591</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="86" UniqueID="{4F995C34-24EF-4798-84CA-EE451A2B45A4}" Name="Sheet.86" NameU="Sheet.86">
+					<Text>Atividades Paralelas</Text>
+					<XForm>
+						<PinX Unit="MM">6.285057961652463</PinX>
+						<PinY Unit="MM">0.469603149606297</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="88" UniqueID="{E6054904-1320-479D-B9BF-6695B96FF476}" Name="Ref. fora de página (saída).88" NameU="Ref. fora de página (saída).88" Master="12">
+					<Text>Desenv.</Text>
+					<XForm>
+						<PinX Unit="MM">1.428507874015748</PinX>
+						<PinY Unit="MM">7.467330708661418</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0;1</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>Referência &amp;Fora da Página</HLURL:Description>
+										<HLURL:Address></HLURL:Address>
+										<HLURL:SubAddress>Desenvolvimento</HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="11" UniqueID="{68348737-2425-41D4-B75E-641DDBB6E265}" Name="Terminador" NameU="Terminador" Master="5">
+					<Text>Término</Text>
+					<XForm>
+						<PinX Unit="MM">3.684437007874016</PinX>
+						<PinY Unit="MM">0.721838582677165</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="23" UniqueID="{29BA5CF1-6AE6-435D-A770-6DB71D37E3DD}" Name="Dynamic connector.23" NameU="Dynamic connector.23" Master="7">
+					<XForm>
+						<PinX Unit="MM">3.682769685039370</PinX>
+						<PinY Unit="MM">1.533557086614174</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="89" UniqueID="{6B268C74-3B38-4D5C-A90D-2F8CA73CF11A}" Name="Decisão" NameU="Decisão" Master="8">
+					<Text>Produto homologado?</Text>
+					<XForm>
+						<PinX Unit="MM">3.681102362204725</PinX>
+						<PinY Unit="MM">4.146456692913387</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Custo</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duração</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Recursos</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="90" UniqueID="{D3F647F0-C66F-4DFF-BC85-ADABA5E763F1}" Name="Dynamic connector.90" NameU="Dynamic connector.90" Master="7">
+					<Text>Sim</Text>
+					<XForm>
+						<PinX Unit="MM">3.681102362204725</PinX>
+						<PinY Unit="MM">3.304921259842520</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="101" UniqueID="{E03DD69B-D987-4F80-A6D9-1BD3314D5B0A}" Name="Dynamic connector.101" NameU="Dynamic connector.101" Master="7">
+					<Text>Não</Text>
+					<XForm>
+						<PinX Unit="MM">2.636811023622047</PinX>
+						<PinY Unit="MM">4.148425196850394</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="91" UniqueID="{DF4A367A-64A8-40A9-BE5A-E1FC76809260}" Name="Ref. fora de página (saída)" NameU="Ref. fora de página (saída)" Master="12">
+					<Text>GRE</Text>
+					<XForm>
+						<PinX Unit="MM">1.834645669291339</PinX>
+						<PinY Unit="MM">4.150393700787402</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0;1</LayerMember>
+					</LayerMem>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>Referência &amp;Fora da Página</HLURL:Description>
+										<HLURL:Address></HLURL:Address>
+										<HLURL:SubAddress>GRE</HLURL:SubAddress>
+										<HLURL:ExtraInfo></HLURL:ExtraInfo>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:NewWindow>0</HLURL:NewWindow>
+										<HLURL:AbsoluteURL>M:\Projeto MPS.BR\4. Melhoria do Processo\Processo Unificado v.2.vsd#GRE</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

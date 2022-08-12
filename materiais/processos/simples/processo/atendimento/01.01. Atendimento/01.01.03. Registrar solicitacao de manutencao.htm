@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
+<title>Atividade: Registrar solicitação de manutenção</title>
+<link href="../../css/estilo1.css" rel="stylesheet" type="text/css" />
+<!--mstheme--><link rel="stylesheet" type="text/css" id="onetidThemeCSS" href="../../../_themes/Lichen/Lich1011-65001.css"><meta name="Microsoft Theme" content="Lichen 1011, default">
+</head>
+<body>
+<table width="800px" border="0">
+  <tr>
+    <td width="50%"><img src="../../imagens/simplestec.jpg" alt="Simplestec" width="349" height="71" align="absmiddle"/></td>
+    <td width="50%"><h1>Detalhamento das atividades</h1>
+      <h2>01 - Atendimento</h2>
+      <!--<iframe src="../../outros/VersaoProcesso.htm"> </iframe>-->
+	  <!--#include file="../../outros/VersaoProcesso.inc" -->
+    </td>
+    <br />
+  </tr>
+  <tr>
+    <td colspan="2"><h3>01.01 - Etapa de Atendimento </h3></td>
+  </tr>
+</table>
+<table width="800" border="1" cellpadding="5" class="tabinf">
+  <tr>
+    <td colspan="2" bgcolor="#E3EDF9"><h4 class="titativ">01.01.03. Registrar Solicitação de Manutenção </h4></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Finalidade</h5>
+      Registrar solicitações de manutenção do produto em um repositório de requisitos. </td>
+  </tr>
+  <tr valign="top">
+    <td width="50%"><h5>Artefatos de Entrada</h5>       
+        RAC –  Registro de Atendimento ao Cliente      </td>
+    <td width="50%"><h5>Artefatos de Saída</h5>
+      
+        SMS - Solicitação de Manutenção ou Serviço</td>
+  </tr>
+  <tr>
+    <td><h5>Papel Responsável</h5>
+      <a href="../../papeis/Atendente.htm">ATD - Atendente</a></td>
+    <td><h5>Papel Participante</h5>
+      Nenhum</td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Ferramentas</h5>
+      Sistema de Atendimento e Solicitações </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Passos</h5>
+      <ol>
+        <li>Localizar RAC na ferramenta;</li>
+        <li>Verificar o detalhamento do registro, a reprodução do problema e o roteiro de atendimento para verificação do problema (se houverem);</li>
+        <li>Identificar e descrever, a nível técnico, uma solicitação de manutenção 
+		ou serviço (SMS) a ser enviado para o Gerente de Projeto. </li>
+        <li>Descrever no SMS a reprodução do problema e o roteiro de atendimento para verificação do problema. Estas descrições deverão ser as mesmas do RAC, se caso existirem.</li>
+        <li>Referenciar possíveis anexos referentes à solicitação. Os anexos em formato digital serão salvos na <a href="#PastaAtdPad">pasta de atendimento</a>;</li>
+        <li>Especificar o tipo de SMS: &quot;<a href="../../glossario.htm">Manutenção Corretiva</a>&quot;, &quot;<a href="../../glossario.htm">Manutenção Evolutiva</a>&quot; ou &quot;<a href="../../glossario.htm">Manutenção Adaptativa</a>&quot;;</li>
+        <li>Registrar a data do prazo estipulado pelo cliente, se houver;</li>
+        <li>Salvar registro no sistema;</li>
+        <li>Sistema salva SMS no repositório de requisitos do produto e 
+		encaminha ao Gerente de Projetos. </li>
+      </ol></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Passos Alternativos</h5>
+      <ol>
+        <li><em>Várias solicitações de manutenção</em><br />
+        No <a href="#passo3">passo 3</a>, ao identificar várias solicitações de manutenção oriundas de um RAC, o atendente deverá proceder a partir do passo 3 ao passo 9 quantas vezes forem necessárias. </li>
+      </ol></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Observações</h5>
+      <ul>
+        <li>
+          <!--include file="../../outros/PastaAtdPadrao.inc" -->
+		  <em><a name="PastaAtdPad" id="PastaAtdPad"></a>Pasta de atendimento padrão</em><br />
+  Caminho da pasta e nome do arquivo:<em> &quot;\\nome_do_computador\atendimento\nome_da_UO\nome_produto\cliente\ANXRACxxxxyyyyyy 
+			nome_arquivo.ext&quot;<br />
+  <br />
+  </em>
+<table width="100%" border="0">
+  <tr>
+    <td width="9%"><strong>Exemplos:</strong></td>
+    <td width="91%">&quot;\\formosa\atendimento\tributário\sistema tributário\pmjp\ATARAC2007000345 ata de reuni&atilde;o.pdf&quot; </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&quot;\\formosa\atendimento\orçamentário\orca\pmni\MSNRAC2007000346 conversa&ccedil;&atilde;o com fulano de tal.rtf&quot; </td>
+  </tr>
+  <tr>
+  	<td>&nbsp;</td>
+	<td>&quot;\\formosa\atendimento\bi\consultoria\caruaru\ANXRAC2007000340 comparativo pessoal afastado por evento.rep&quot; </td>
+  </tr>	
+</table>
+<br />
+        </li>
+      </ul></td>
+  </tr>
+  <tr>
+  	<td colspan="2"><h5>Diagrama de atividades</h5><br /><center>
+<img src="imagens/registrar_sms.png" alt="Registrar SMS" /></center>    </td>
+  </tr>
+</table>
+</body>
+</html>

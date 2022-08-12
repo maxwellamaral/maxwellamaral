@@ -1,0 +1,281 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" 
+ xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>PEPP - Exemplo de Processo</title>
+<style type="text/css">
+	 v\:* { behavior: url(#default#VML); }
+</style>
+
+<script src="vml_1.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+
+	var pageID = 4;
+	var viewMgr = null;
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+	function getPNZ()
+	{
+		var rawHTML = VMLDiv.innerHTML;
+		var strReturn = ""
+		
+		strReturn = rawHTML.slice( rawHTML.indexOf( '<v:group' ), rawHTML.indexOf( "</v:shape>" ) );
+		strReturn += "</v:shape></v:group>\n";
+				
+		return strReturn;
+	}
+	
+	function load()
+	{
+		viewMgr = new parent.CViewMgr("ConvertedImage", "arrowDiv");
+
+		viewMgr.put_Location = ViewMgrSetVMLLocation;
+
+
+		viewMgr.visBBoxLeft = 0.188517;
+		viewMgr.visBBoxRight = 13.689435;
+		viewMgr.visBBoxBottom = 0.007036;
+		viewMgr.visBBoxTop = 8.256365;
+
+		viewMgr.Zoom = VMLZoomChange;
+		viewMgr.setView= VMLSetView;
+
+		viewMgr.SupportsDetails = true;
+		viewMgr.SupportsSearch = true;
+
+		parent.viewMgr = viewMgr;
+
+		fit();
+	}
+
+	function unload()
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+
+	function fit()
+	{
+		if(parent.frmToolbar)
+		{
+			if (parent.g_WidgetsLoaded)
+			{
+				var zoom100 = parent.frmToolbar.document.all('a100');
+				if (zoom100)
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					zoom100.click();
+				}
+				else
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					viewMgr.Zoom(100);
+				}
+			}
+			else
+			{
+				window.setTimeout("fit()", 500);
+			}
+		}	
+		else
+		{
+			parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+			viewMgr.Zoom(100);
+		}
+	}
+
+	function PostZoomProcessing (newZoomLevel)
+	{
+		parent.viewMgr.PostZoomProcessing = null;
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.viewMgr.getPNZ = getPNZ;
+		parent.CurPageUpdate (pageIndex);
+	}
+
+
+	
+	var isUpLevel = parent.isUpLevel;
+	var OnShapeClick = parent.OnShapeClick;
+	var OnShapeKey = parent.OnShapeKey;
+	var UpdateTooltip = parent.UpdateTooltip;
+	var clickMenu = parent.clickMenu;
+	var toggleMenuDiv = parent.toggleMenuDiv;
+	var toggleMenuLink = parent.toggleMenuLink;
+	var GoToPage = parent.GoToPage;
+
+	window.onload = load;
+	window.onunload = unload;
+	document.onclick = clickMenu;
+
+
+
+
+</script>
+
+</head>
+
+<body style="MARGIN:10px" onresize="VMLOnResize();" onscroll="VMLOnScroll();">
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+<img id="arrowgif" alt="Mostra o local da forma selecionada" src="arrow.gif"/>
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+
+
+
+<div id="VMLDiv" >
+
+
+<v:group  id="ConvertedImage" style="width:6.546432in;height:4.000000in;position:absolute;visibility=hidden;" coordSize="3273,2000" coordOrigin="-1000,-1000" >
+
+<v:shapetype 
+  id="VISSHAPE"
+  target="_parent"
+  coordsize="3273,2000"
+  coordorigin="-1000,-1000"
+  stroked="f"
+  strokecolor="red"
+  filled="t"
+>
+<v:fill opacity="0.0"/>
+</v:shapetype>
+
+
+<v:shape style="top:-1000.0;left:-1000.0;width:3273.2;height:2000.0;position:absolute" coordSize="3273,2000" coordOrigin="-1000,-1000" >
+<v:imagedata src="vml_2.emz"/>
+</v:shape>
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Início" origTitle="Início"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -732,-614 l -618,-614 l -617,-614 l -615,-614 l -614,-614 l -612,-614 l -611,-615 l -609,-615 l -608,-615 l -606,-616 l -605,-616 l -604,-617 l -602,-617 l -601,-618 l -600,-619 l -598,-619 l -597,-620 l -596,-621 l -595,-622 l -594,-623 l -592,-624 l -591,-625 l -590,-626 l -589,-627 l -588,-628 l -587,-629 l -587,-630 l -586,-632 l -585,-633 l -584,-634 l -584,-635 l -583,-637 l -583,-638 l -582,-640 l -582,-641 l -581,-642 l -581,-644 l -581,-645 l -580,-647 l -580,-648 l -580,-650 l -580,-651 l -580,-653 l -580,-654 l -580,-656 l -580,-657 l -581,-658 l -581,-660 l -581,-661 l -582,-663 l -582,-664 l -583,-666 l -583,-667 l -584,-668 l -584,-670 l -585,-671 l -586,-672 l -587,-673 l -587,-675 l -588,-676 l -589,-677 l -590,-678 l -591,-679 l -592,-680 l -594,-681 l -595,-682 l -596,-683 l -597,-684 l -598,-684 l -600,-685 l -601,-686 l -602,-687 l -604,-687 l -605,-688 l -606,-688 l -608,-689 l -609,-689 l -611,-689 l -612,-689 l -614,-690 l -615,-690 l -617,-690 l -618,-690 l -732,-690 l -734,-690 l -735,-690 l -737,-690 l -738,-689 l -740,-689 l -741,-689 l -743,-689 l -744,-688 l -745,-688 l -747,-687 l -748,-687 l -749,-686 l -751,-685 l -752,-684 l -753,-684 l -754,-683 l -756,-682 l -757,-681 l -758,-680 l -759,-679 l -760,-678 l -761,-677 l -762,-676 l -763,-675 l -764,-673 l -765,-672 l -765,-671 l -766,-670 l -767,-668 l -767,-667 l -768,-666 l -768,-664 l -769,-663 l -769,-661 l -770,-660 l -770,-658 l -770,-657 l -770,-656 l -770,-654 l -770,-653 l -770,-651 l -770,-650 l -770,-648 l -770,-647 l -770,-645 l -770,-644 l -769,-642 l -769,-641 l -768,-640 l -768,-638 l -767,-637 l -767,-635 l -766,-634 l -765,-633 l -765,-632 l -764,-630 l -763,-629 l -762,-628 l -761,-627 l -760,-626 l -759,-625 l -758,-624 l -757,-623 l -756,-622 l -754,-621 l -753,-620 l -752,-619 l -751,-619 l -749,-618 l -748,-617 l -747,-617 l -745,-616 l -744,-616 l -743,-615 l -741,-615 l -740,-615 l -738,-614 l -737,-614 l -735,-614 l -734,-614 l -732,-614xe" onmouseover="UpdateTooltip(this,4,1)" onclick="OnShapeClick(4,1)" onfocus="UpdateTooltip(this,4,1);" onkeyup="OnShapeKey(4,1)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Solicitação viável ?" origTitle="Solicitação viável ?"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -47,-222 l -105,-257 l -164,-222 l -170,-222 l -170,-218 l -224,-186 l -105,-115 l 14,-186 l -33,-214 l -33,-222 l -47,-222xe" onmouseover="UpdateTooltip(this,4,10)" onclick="OnShapeClick(4,10)" onfocus="UpdateTooltip(this,4,10);" onkeyup="OnShapeKey(4,10)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Fim" origTitle="Fim"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -732,342 l -618,342 l -617,342 l -615,342 l -614,342 l -612,342 l -611,342 l -609,341 l -608,341 l -606,340 l -605,340 l -604,339 l -602,339 l -601,338 l -600,338 l -598,337 l -597,336 l -596,335 l -595,334 l -594,333 l -592,332 l -591,331 l -590,330 l -589,329 l -588,328 l -587,327 l -587,326 l -586,325 l -585,323 l -584,322 l -584,321 l -583,319 l -583,318 l -582,317 l -582,315 l -581,314 l -581,312 l -581,311 l -580,309 l -580,308 l -580,306 l -580,305 l -580,304 l -580,302 l -580,301 l -580,299 l -581,298 l -581,296 l -581,295 l -582,293 l -582,292 l -583,291 l -583,289 l -584,288 l -584,287 l -585,285 l -586,284 l -587,283 l -587,282 l -588,280 l -589,279 l -590,278 l -591,277 l -592,276 l -594,275 l -595,274 l -596,273 l -597,272 l -598,272 l -600,271 l -601,270 l -602,270 l -604,269 l -605,269 l -606,268 l -608,268 l -609,267 l -611,267 l -612,267 l -614,266 l -615,266 l -617,266 l -618,266 l -732,266 l -734,266 l -735,266 l -737,266 l -738,267 l -740,267 l -741,267 l -743,268 l -744,268 l -745,269 l -747,269 l -748,270 l -749,270 l -751,271 l -752,272 l -753,272 l -754,273 l -756,274 l -757,275 l -758,276 l -759,277 l -760,278 l -761,279 l -762,280 l -763,282 l -764,283 l -765,284 l -765,285 l -766,287 l -767,288 l -767,289 l -768,291 l -768,292 l -769,293 l -769,295 l -770,296 l -770,298 l -770,299 l -770,301 l -770,302 l -770,304 l -770,305 l -770,306 l -770,308 l -770,309 l -770,311 l -770,312 l -769,314 l -769,315 l -768,317 l -768,318 l -767,319 l -767,321 l -766,322 l -765,323 l -765,325 l -764,326 l -763,327 l -762,328 l -761,329 l -760,330 l -759,331 l -758,332 l -757,333 l -756,334 l -754,335 l -753,336 l -752,337 l -751,338 l -749,338 l -748,339 l -747,339 l -745,340 l -744,340 l -743,341 l -741,341 l -740,342 l -738,342 l -737,342 l -735,342 l -734,342 l -732,342xe" onmouseover="UpdateTooltip(this,4,16)" onclick="OnShapeClick(4,16)" onfocus="UpdateTooltip(this,4,16);" onkeyup="OnShapeKey(4,16)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Proposta OK ?" origTitle="Proposta OK ?"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 720,721 l 634,670 l 549,721 l 546,721 l 546,723 l 515,741 l 634,812 l 753,741 l 722,723 l 722,721 l 720,721xe" onmouseover="UpdateTooltip(this,4,28)" onclick="OnShapeClick(4,28)" onfocus="UpdateTooltip(this,4,28);" onkeyup="OnShapeKey(4,28)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Proposta aceita ?" origTitle="Proposta aceita ?"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1409,-332 l 1351,-367 l 1232,-295 l 1351,-224 l 1470,-295 l 1412,-330 l 1412,-332 l 1409,-332xe" onmouseover="UpdateTooltip(this,4,33)" onclick="OnShapeClick(4,33)" onfocus="UpdateTooltip(this,4,33);" onkeyup="OnShapeKey(4,33)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="" tabindex="1" title="Planejamento" origTitle="Planejamento"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1387,846 l 1501,846 l 1502,846 l 1504,846 l 1505,846 l 1507,845 l 1508,845 l 1510,845 l 1511,844 l 1512,844 l 1514,843 l 1515,843 l 1517,842 l 1518,842 l 1519,841 l 1521,840 l 1522,840 l 1523,839 l 1524,838 l 1525,837 l 1526,836 l 1527,835 l 1529,834 l 1530,833 l 1530,832 l 1531,830 l 1532,829 l 1533,828 l 1534,827 l 1535,825 l 1535,824 l 1536,823 l 1536,821 l 1537,820 l 1537,819 l 1538,817 l 1538,816 l 1538,814 l 1539,813 l 1539,811 l 1539,810 l 1539,808 l 1539,807 l 1539,806 l 1539,804 l 1539,803 l 1538,801 l 1538,800 l 1538,798 l 1537,797 l 1537,795 l 1536,794 l 1536,793 l 1535,791 l 1535,790 l 1534,789 l 1533,787 l 1532,786 l 1531,785 l 1530,784 l 1530,783 l 1529,782 l 1527,781 l 1526,780 l 1525,779 l 1524,778 l 1523,777 l 1522,776 l 1521,775 l 1519,774 l 1518,774 l 1517,773 l 1515,773 l 1514,772 l 1512,772 l 1511,771 l 1510,771 l 1508,770 l 1507,770 l 1505,770 l 1504,770 l 1502,770 l 1501,770 l 1387,770 l 1385,770 l 1384,770 l 1382,770 l 1381,770 l 1379,770 l 1378,771 l 1376,771 l 1375,772 l 1374,772 l 1372,773 l 1371,773 l 1369,774 l 1368,774 l 1367,775 l 1366,776 l 1364,777 l 1363,778 l 1362,779 l 1361,780 l 1360,781 l 1359,782 l 1358,783 l 1357,784 l 1356,785 l 1355,786 l 1354,787 l 1354,789 l 1353,790 l 1352,791 l 1352,793 l 1351,794 l 1351,795 l 1350,797 l 1350,798 l 1349,800 l 1349,801 l 1349,803 l 1349,804 l 1349,806 l 1348,807 l 1348,808 l 1349,810 l 1349,811 l 1349,813 l 1349,814 l 1349,816 l 1350,817 l 1350,819 l 1351,820 l 1351,821 l 1352,823 l 1352,824 l 1353,825 l 1354,827 l 1354,828 l 1355,829 l 1356,830 l 1357,832 l 1358,833 l 1359,834 l 1360,835 l 1361,836 l 1362,837 l 1363,838 l 1364,839 l 1366,840 l 1367,840 l 1368,841 l 1369,842 l 1371,842 l 1372,843 l 1374,843 l 1375,844 l 1376,844 l 1378,845 l 1379,845 l 1381,845 l 1382,846 l 1384,846 l 1385,846 l 1387,846xe" onmouseover="UpdateTooltip(this,4,35)" onclick="OnShapeClick(4,35)" onfocus="UpdateTooltip(this,4,35);" onkeyup="OnShapeKey(4,35)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="Refazer Proposta ?" origTitle="Refazer Proposta ?"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1134,261 l 1253,332 l 1372,261 l 1253,190 l 1134,261xe" onmouseover="UpdateTooltip(this,4,37)" onclick="OnShapeClick(4,37)" onfocus="UpdateTooltip(this,4,37);" onkeyup="OnShapeKey(4,37)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_01_01" tabindex="1" title="Atendimento ao Cliente" origTitle="Atendimento ao Cliente"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -794,-376 l -556,-376 l -556,-519 l -794,-519 l -794,-376xe" onmouseover="UpdateTooltip(this,4,2)" onclick="OnShapeClick(4,2)" onfocus="UpdateTooltip(this,4,2);" onkeyup="OnShapeKey(4,2)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="xFSS" origTitle="xFSS"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -869,-340 l -868,-340 l -867,-339 l -865,-338 l -864,-337 l -863,-337 l -862,-336 l -860,-336 l -859,-335 l -858,-335 l -856,-334 l -855,-334 l -853,-334 l -852,-334 l -851,-333 l -849,-333 l -848,-333 l -846,-333 l -845,-333 l -843,-334 l -842,-334 l -841,-334 l -839,-334 l -838,-335 l -836,-335 l -835,-336 l -834,-336 l -832,-337 l -831,-337 l -830,-338 l -829,-339 l -827,-340 l -826,-340 l -825,-341 l -824,-342 l -823,-343 l -821,-344 l -820,-344 l -819,-345 l -817,-345 l -816,-346 l -815,-346 l -813,-347 l -812,-347 l -811,-347 l -809,-347 l -808,-347 l -806,-348 l -805,-348 l -803,-348 l -802,-347 l -801,-347 l -799,-347 l -798,-347 l -796,-347 l -795,-346 l -794,-346 l -792,-345 l -791,-345 l -790,-344 l -788,-344 l -787,-343 l -786,-342 l -785,-341 l -783,-340 l -783,-390 l -869,-390 l -869,-340xe" onmouseover="UpdateTooltip(this,4,162)" onclick="OnShapeClick(4,162)" onfocus="UpdateTooltip(this,4,162);" onkeyup="OnShapeKey(4,162)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -583,-512 l -582,-511 l -581,-510 l -580,-509 l -579,-509 l -577,-508 l -576,-507 l -575,-507 l -573,-506 l -572,-506 l -571,-506 l -569,-505 l -568,-505 l -566,-505 l -565,-505 l -563,-505 l -562,-504 l -561,-505 l -559,-505 l -558,-505 l -556,-505 l -555,-505 l -553,-506 l -552,-506 l -551,-506 l -549,-507 l -548,-507 l -547,-508 l -545,-509 l -544,-509 l -543,-510 l -542,-511 l -541,-512 l -539,-512 l -538,-513 l -537,-514 l -536,-515 l -535,-515 l -534,-516 l -532,-516 l -531,-517 l -530,-517 l -528,-518 l -527,-518 l -526,-518 l -525,-518 l -523,-519 l -522,-519 l -520,-519 l -519,-519 l -498,-540 l -498,-562 l -583,-562 l -583,-512x m -519,-519 l -518,-519 l -516,-519 l -515,-518 l -513,-518 l -512,-518 l -511,-518 l -509,-517 l -508,-517 l -506,-516 l -505,-516 l -504,-515 l -503,-515 l -501,-514 l -500,-513 l -499,-512 l -498,-512 l -498,-540 l -519,-519xe" onmouseover="UpdateTooltip(this,4,163)" onclick="OnShapeClick(4,163)" onfocus="UpdateTooltip(this,4,163);" onkeyup="OnShapeKey(4,163)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_02_01" tabindex="1" title="Analisar Solicitação de Serviço" origTitle="Analisar Solicitação de Serviço"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -224,-376 l 14,-376 l 14,-519 l -224,-519 l -224,-376xe" onmouseover="UpdateTooltip(this,4,3)" onclick="OnShapeClick(4,3)" onfocus="UpdateTooltip(this,4,3);" onkeyup="OnShapeKey(4,3)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="FSS" origTitle="FSS"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -290,-340 l -288,-340 l -287,-339 l -286,-338 l -285,-337 l -283,-337 l -282,-336 l -281,-336 l -279,-335 l -278,-335 l -277,-334 l -275,-334 l -274,-334 l -272,-334 l -271,-333 l -270,-333 l -268,-333 l -267,-333 l -265,-333 l -264,-334 l -262,-334 l -261,-334 l -260,-334 l -258,-335 l -257,-335 l -255,-336 l -254,-336 l -253,-337 l -252,-337 l -250,-338 l -249,-339 l -248,-340 l -247,-340 l -245,-341 l -244,-342 l -243,-343 l -242,-344 l -241,-344 l -239,-345 l -238,-345 l -237,-346 l -235,-346 l -234,-347 l -232,-347 l -231,-347 l -230,-347 l -228,-347 l -227,-348 l -225,-348 l -224,-348 l -222,-347 l -221,-347 l -220,-347 l -218,-347 l -217,-347 l -215,-346 l -214,-346 l -213,-345 l -211,-345 l -210,-344 l -209,-344 l -207,-343 l -206,-342 l -205,-341 l -204,-340 l -204,-390 l -290,-390 l -290,-340xe" onmouseover="UpdateTooltip(this,4,168)" onclick="OnShapeClick(4,168)" onfocus="UpdateTooltip(this,4,168);" onkeyup="OnShapeKey(4,168)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_02_02" tabindex="1" title="Combinar próximas ações com Cliente" origTitle="Combinar próximas ações com Cliente"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -243,194 l -5,194 l -5,52 l -243,52 l -243,194xe" onmouseover="UpdateTooltip(this,4,13)" onclick="OnShapeClick(4,13)" onfocus="UpdateTooltip(this,4,13);" onkeyup="OnShapeKey(4,13)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="FSS" origTitle="FSS"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -309,223 l -307,224 l -306,225 l -305,225 l -304,226 l -302,227 l -301,227 l -300,228 l -298,228 l -297,229 l -296,229 l -294,229 l -293,230 l -291,230 l -290,230 l -289,230 l -287,230 l -286,230 l -284,230 l -283,230 l -281,230 l -280,229 l -279,229 l -277,229 l -276,228 l -274,228 l -273,227 l -272,227 l -271,226 l -269,225 l -268,225 l -267,224 l -266,223 l -265,222 l -263,221 l -262,221 l -261,220 l -260,219 l -258,219 l -257,218 l -256,218 l -254,217 l -253,217 l -251,217 l -250,216 l -249,216 l -247,216 l -246,216 l -244,216 l -243,216 l -241,216 l -240,216 l -239,216 l -237,217 l -236,217 l -234,217 l -233,218 l -232,218 l -230,219 l -229,219 l -228,220 l -226,221 l -225,221 l -224,222 l -223,223 l -223,173 l -309,173 l -309,223xe" onmouseover="UpdateTooltip(this,4,4)" onclick="OnShapeClick(4,4)" onfocus="UpdateTooltip(this,4,4);" onkeyup="OnShapeKey(4,4)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_03_01" tabindex="1" title="Definir Escopo" origTitle="Definir Escopo"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 327,-462 l 565,-462 l 565,-604 l 327,-604 l 327,-462xe" onmouseover="UpdateTooltip(this,4,18)" onclick="OnShapeClick(4,18)" onfocus="UpdateTooltip(this,4,18);" onkeyup="OnShapeKey(4,18)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="FSS xPTE" origTitle="FSS xPTE"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 267,-407 l 268,-406 l 269,-405 l 270,-405 l 271,-404 l 273,-403 l 274,-403 l 275,-402 l 277,-402 l 278,-401 l 279,-401 l 281,-401 l 282,-400 l 284,-400 l 285,-400 l 287,-400 l 288,-400 l 289,-400 l 291,-400 l 292,-400 l 294,-400 l 295,-401 l 297,-401 l 298,-401 l 299,-402 l 301,-402 l 302,-403 l 303,-403 l 305,-404 l 306,-405 l 307,-405 l 308,-406 l 309,-407 l 311,-408 l 312,-409 l 313,-409 l 314,-410 l 316,-411 l 317,-411 l 318,-412 l 320,-412 l 321,-413 l 322,-413 l 324,-413 l 325,-414 l 327,-414 l 328,-414 l 329,-414 l 331,-414 l 332,-414 l 334,-414 l 335,-414 l 337,-414 l 338,-413 l 339,-413 l 341,-413 l 342,-412 l 343,-412 l 345,-411 l 346,-411 l 347,-410 l 349,-409 l 350,-409 l 351,-408 l 352,-407 l 352,-490 l 267,-490 l 267,-407xe" onmouseover="UpdateTooltip(this,4,95)" onclick="OnShapeClick(4,95)" onfocus="UpdateTooltip(this,4,95);" onkeyup="OnShapeKey(4,95)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 610,-591 l 625,-606 l 625,-628 l 543,-628 l 543,-578 l 544,-577 l 545,-577 l 546,-576 l 547,-575 l 549,-575 l 550,-574 l 551,-573 l 552,-573 l 554,-572 l 555,-572 l 556,-572 l 558,-572 l 559,-571 l 560,-571 l 562,-571 l 563,-571 l 565,-571 l 566,-571 l 567,-571 l 569,-572 l 570,-572 l 571,-572 l 573,-572 l 574,-573 l 575,-573 l 577,-574 l 578,-575 l 579,-575 l 580,-576 l 581,-577 l 583,-577 l 584,-578 l 585,-579 l 586,-580 l 587,-580 l 588,-581 l 589,-582 l 590,-582 l 592,-583 l 593,-583 l 594,-584 l 595,-584 l 596,-584 l 598,-585 l 599,-585 l 600,-585 l 602,-585 l 603,-585 l 604,-585 l 610,-591 l 610,-591 l 604,-585 l 606,-585 l 607,-585 l 608,-585 l 610,-585 l 611,-585 l 612,-584 l 614,-584 l 615,-583 l 616,-583 l 618,-582 l 619,-582 l 620,-581 l 621,-581 l 622,-580 l 624,-579 l 625,-578 l 625,-606 l 610,-591 l 610,-591xe" onmouseover="UpdateTooltip(this,4,8)" onclick="OnShapeClick(4,8)" onfocus="UpdateTooltip(this,4,8);" onkeyup="OnShapeKey(4,8)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_03_02" tabindex="1" title="Estimar Esforço" origTitle="Estimar Esforço"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 594,-343 l 832,-343 l 832,-485 l 594,-485 l 594,-343xe" onmouseover="UpdateTooltip(this,4,20)" onclick="OnShapeClick(4,20)" onfocus="UpdateTooltip(this,4,20);" onkeyup="OnShapeKey(4,20)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 800,-474 l 801,-473 l 802,-472 l 803,-471 l 805,-471 l 806,-470 l 807,-469 l 809,-469 l 810,-468 l 811,-468 l 813,-467 l 814,-467 l 816,-467 l 817,-467 l 818,-467 l 820,-466 l 821,-466 l 823,-466 l 824,-467 l 826,-467 l 827,-467 l 828,-467 l 830,-467 l 831,-468 l 833,-468 l 834,-469 l 835,-469 l 837,-470 l 838,-471 l 839,-471 l 840,-472 l 842,-473 l 843,-474 l 844,-474 l 845,-475 l 846,-476 l 847,-477 l 848,-477 l 850,-478 l 851,-478 l 852,-479 l 853,-479 l 855,-479 l 856,-480 l 857,-480 l 859,-480 l 860,-481 l 861,-481 l 863,-481 l 864,-481 l 886,-502 l 886,-524 l 800,-524 l 800,-474x m 864,-481 l 866,-481 l 867,-481 l 868,-480 l 870,-480 l 871,-480 l 873,-480 l 874,-479 l 875,-479 l 877,-478 l 878,-478 l 879,-477 l 881,-477 l 882,-476 l 883,-475 l 884,-474 l 886,-474 l 886,-502 l 864,-481xe" onmouseover="UpdateTooltip(this,4,9)" onclick="OnShapeClick(4,9)" onfocus="UpdateTooltip(this,4,9);" onkeyup="OnShapeKey(4,9)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE xTBE" origTitle="PTE xTBE"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 555,-357 l 538,-357 l 538,-279 l 539,-278 l 540,-277 l 542,-276 l 543,-276 l 544,-275 l 545,-274 l 547,-274 l 548,-273 l 549,-273 l 551,-273 l 552,-272 l 554,-272 l 555,-272 l 557,-272 l 558,-272 l 559,-272 l 561,-272 l 562,-272 l 564,-272 l 565,-272 l 567,-272 l 568,-273 l 569,-273 l 571,-273 l 572,-274 l 573,-274 l 575,-275 l 576,-276 l 577,-276 l 578,-277 l 580,-278 l 581,-279 l 582,-279 l 583,-280 l 584,-281 l 586,-282 l 587,-282 l 588,-283 l 590,-283 l 591,-284 l 592,-284 l 594,-285 l 595,-285 l 597,-285 l 598,-286 l 599,-286 l 601,-286 l 602,-286 l 604,-286 l 605,-286 l 607,-286 l 608,-285 l 609,-285 l 611,-285 l 612,-284 l 614,-284 l 615,-283 l 616,-283 l 618,-282 l 619,-282 l 620,-281 l 621,-280 l 622,-279 l 624,-279 l 624,-357 l 607,-357 l 607,-358 l 555,-358 l 555,-357xe" onmouseover="UpdateTooltip(this,4,176)" onclick="OnShapeClick(4,176)" onfocus="UpdateTooltip(this,4,176);" onkeyup="OnShapeKey(4,176)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_03_03" tabindex="1" title="Elaborar Proposta Técnica" origTitle="Elaborar Proposta Técnica"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 346,-77 l 584,-77 l 584,-219 l 346,-219 l 346,-77xe" onmouseover="UpdateTooltip(this,4,22)" onclick="OnShapeClick(4,22)" onfocus="UpdateTooltip(this,4,22);" onkeyup="OnShapeKey(4,22)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 562,-207 l 563,-207 l 564,-206 l 565,-205 l 567,-204 l 568,-204 l 569,-203 l 571,-203 l 572,-202 l 573,-202 l 575,-201 l 576,-201 l 577,-201 l 579,-200 l 580,-200 l 582,-200 l 583,-200 l 585,-200 l 586,-200 l 587,-200 l 589,-201 l 590,-201 l 592,-201 l 593,-202 l 594,-202 l 596,-203 l 597,-203 l 598,-204 l 600,-204 l 601,-205 l 602,-206 l 603,-207 l 605,-207 l 606,-208 l 607,-209 l 608,-210 l 609,-210 l 610,-211 l 612,-211 l 613,-212 l 614,-212 l 615,-213 l 617,-213 l 618,-214 l 619,-214 l 621,-214 l 622,-214 l 623,-214 l 625,-214 l 626,-214 l 647,-236 l 647,-257 l 562,-257 l 562,-207x m 626,-214 l 627,-214 l 629,-214 l 630,-214 l 632,-214 l 633,-214 l 635,-213 l 636,-213 l 637,-213 l 639,-212 l 640,-212 l 641,-211 l 643,-210 l 644,-210 l 645,-209 l 646,-208 l 647,-207 l 647,-236 l 626,-214xe" onmouseover="UpdateTooltip(this,4,96)" onclick="OnShapeClick(4,96)" onfocus="UpdateTooltip(this,4,96);" onkeyup="OnShapeKey(4,96)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE TBE" origTitle="PTE TBE"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 302,-91 l 286,-91 l 286,-12 l 287,-12 l 288,-11 l 289,-10 l 290,-9 l 292,-9 l 293,-8 l 294,-8 l 296,-7 l 297,-7 l 298,-6 l 300,-6 l 301,-6 l 303,-6 l 304,-5 l 306,-5 l 307,-5 l 308,-5 l 310,-5 l 311,-6 l 313,-6 l 314,-6 l 316,-6 l 317,-7 l 318,-7 l 320,-8 l 321,-8 l 322,-9 l 324,-9 l 325,-10 l 326,-11 l 327,-12 l 328,-12 l 330,-13 l 331,-14 l 332,-15 l 333,-15 l 335,-16 l 336,-17 l 337,-17 l 339,-18 l 340,-18 l 341,-19 l 343,-19 l 344,-19 l 346,-19 l 347,-19 l 348,-20 l 350,-20 l 351,-20 l 353,-19 l 354,-19 l 356,-19 l 357,-19 l 358,-19 l 360,-18 l 361,-18 l 363,-17 l 364,-17 l 365,-16 l 366,-15 l 368,-15 l 369,-14 l 370,-13 l 371,-12 l 371,-91 l 355,-91 l 355,-91 l 302,-91 l 302,-91xe" onmouseover="UpdateTooltip(this,4,97)" onclick="OnShapeClick(4,97)" onfocus="UpdateTooltip(this,4,97);" onkeyup="OnShapeKey(4,97)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_03_04" tabindex="1" title="Analisar ambiente de execução" origTitle="Analisar ambiente de execução"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 618,38 l 856,38 l 856,-105 l 618,-105 l 618,38xe" onmouseover="UpdateTooltip(this,4,24)" onclick="OnShapeClick(4,24)" onfocus="UpdateTooltip(this,4,24);" onkeyup="OnShapeKey(4,24)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE" origTitle="PTE"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 552,73 l 553,74 l 555,75 l 556,76 l 557,76 l 558,77 l 560,77 l 561,78 l 562,78 l 564,79 l 565,79 l 567,80 l 568,80 l 569,80 l 571,80 l 572,80 l 574,80 l 575,80 l 577,80 l 578,80 l 579,80 l 581,80 l 582,79 l 584,79 l 585,78 l 586,78 l 588,77 l 589,77 l 590,76 l 591,76 l 593,75 l 594,74 l 595,73 l 596,72 l 597,72 l 599,71 l 600,70 l 601,69 l 603,69 l 604,68 l 605,68 l 607,67 l 608,67 l 609,67 l 611,67 l 612,66 l 614,66 l 615,66 l 617,66 l 618,66 l 619,66 l 621,66 l 622,67 l 624,67 l 625,67 l 626,67 l 628,68 l 629,68 l 630,69 l 632,69 l 633,70 l 634,71 l 636,72 l 637,72 l 638,73 l 638,23 l 552,23 l 552,73xe" onmouseover="UpdateTooltip(this,4,179)" onclick="OnShapeClick(4,179)" onfocus="UpdateTooltip(this,4,179);" onkeyup="OnShapeKey(4,179)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_03_06" tabindex="1" title="Avaliar Propostas" origTitle="Avaliar Propostas"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 560,561 l 799,561 l 799,418 l 560,418 l 560,561xe" onmouseover="UpdateTooltip(this,4,133)" onclick="OnShapeClick(4,133)" onfocus="UpdateTooltip(this,4,133);" onkeyup="OnShapeKey(4,133)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE PCO" origTitle="PTE PCO"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 517,541 l 500,541 l 500,620 l 501,621 l 502,622 l 503,622 l 505,623 l 506,624 l 507,624 l 509,625 l 510,625 l 511,626 l 513,626 l 514,626 l 516,627 l 517,627 l 518,627 l 520,627 l 521,627 l 523,627 l 524,627 l 526,627 l 527,627 l 528,626 l 530,626 l 531,626 l 533,625 l 534,625 l 535,624 l 537,624 l 538,623 l 539,622 l 540,622 l 542,621 l 543,620 l 544,619 l 545,618 l 546,618 l 548,617 l 549,616 l 550,616 l 551,615 l 553,615 l 554,614 l 556,614 l 557,614 l 558,613 l 560,613 l 561,613 l 563,613 l 564,613 l 566,613 l 567,613 l 568,613 l 570,613 l 571,614 l 573,614 l 574,614 l 575,615 l 577,615 l 578,616 l 579,616 l 581,617 l 582,618 l 583,618 l 584,619 l 586,620 l 586,541 l 569,541 l 569,541 l 517,541 l 517,541xe" onmouseover="UpdateTooltip(this,4,128)" onclick="OnShapeClick(4,128)" onfocus="UpdateTooltip(this,4,128);" onkeyup="OnShapeKey(4,128)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_04_01" tabindex="1" title="Submeter Proposta ao Cliente" origTitle="Submeter Proposta ao Cliente"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1231,-509 l 1469,-509 l 1469,-652 l 1231,-652 l 1231,-509xe" onmouseover="UpdateTooltip(this,4,30)" onclick="OnShapeClick(4,30)" onfocus="UpdateTooltip(this,4,30);" onkeyup="OnShapeKey(4,30)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE PCO" origTitle="PTE PCO"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1187,-533 l 1171,-533 l 1171,-455 l 1172,-454 l 1173,-453 l 1174,-452 l 1175,-452 l 1177,-451 l 1178,-450 l 1179,-450 l 1181,-449 l 1182,-449 l 1183,-448 l 1185,-448 l 1186,-448 l 1188,-448 l 1189,-448 l 1191,-447 l 1192,-447 l 1193,-447 l 1195,-448 l 1196,-448 l 1198,-448 l 1199,-448 l 1201,-448 l 1202,-449 l 1203,-449 l 1205,-450 l 1206,-450 l 1207,-451 l 1209,-452 l 1210,-452 l 1211,-453 l 1212,-454 l 1213,-455 l 1215,-455 l 1216,-456 l 1217,-457 l 1218,-458 l 1220,-458 l 1221,-459 l 1222,-459 l 1224,-460 l 1225,-460 l 1226,-461 l 1228,-461 l 1229,-461 l 1231,-461 l 1232,-462 l 1233,-462 l 1235,-462 l 1236,-462 l 1238,-462 l 1239,-461 l 1241,-461 l 1242,-461 l 1243,-461 l 1245,-460 l 1246,-460 l 1247,-459 l 1249,-459 l 1250,-458 l 1251,-458 l 1253,-457 l 1254,-456 l 1255,-455 l 1256,-455 l 1256,-533 l 1240,-533 l 1240,-534 l 1187,-534 l 1187,-533xe" onmouseover="UpdateTooltip(this,4,131)" onclick="OnShapeClick(4,131)" onfocus="UpdateTooltip(this,4,131);" onkeyup="OnShapeKey(4,131)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_04_02" tabindex="1" title="Verificar possibilidade de alteração da proposta" origTitle="Verificar possibilidade de alteração da proposta"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1177,66 l 1415,66 l 1415,-77 l 1177,-77 l 1177,66xe" onmouseover="UpdateTooltip(this,4,135)" onclick="OnShapeClick(4,135)" onfocus="UpdateTooltip(this,4,135);" onkeyup="OnShapeKey(4,135)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE PCO" origTitle="PTE PCO"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1133,47 l 1116,47 l 1116,125 l 1118,126 l 1119,127 l 1120,128 l 1121,129 l 1123,129 l 1124,130 l 1125,130 l 1127,131 l 1128,131 l 1129,132 l 1131,132 l 1132,132 l 1134,132 l 1135,132 l 1136,133 l 1138,133 l 1139,133 l 1141,132 l 1142,132 l 1144,132 l 1145,132 l 1146,132 l 1148,131 l 1149,131 l 1151,130 l 1152,130 l 1153,129 l 1154,129 l 1156,128 l 1157,127 l 1158,126 l 1159,125 l 1160,125 l 1162,124 l 1163,123 l 1164,122 l 1165,122 l 1167,121 l 1168,121 l 1169,120 l 1171,120 l 1172,119 l 1174,119 l 1175,119 l 1176,119 l 1178,118 l 1179,118 l 1181,118 l 1182,118 l 1184,118 l 1185,119 l 1186,119 l 1188,119 l 1189,119 l 1191,120 l 1192,120 l 1193,121 l 1195,121 l 1196,122 l 1197,122 l 1199,123 l 1200,124 l 1201,125 l 1202,125 l 1202,47 l 1185,47 l 1185,46 l 1133,46 l 1133,47xe" onmouseover="UpdateTooltip(this,4,130)" onclick="OnShapeClick(4,130)" onfocus="UpdateTooltip(this,4,130);" onkeyup="OnShapeKey(4,130)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5Ctemplates%5CTEMPLATE-Proposta%20Comercial_00.doc" tabindex="1" title="- PCO: Proposta Comercial" origTitle="- PCO: Proposta Comercial"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1805,-148 l 1790,-148 l 1732,-148 l 1725,-148 l 1716,-148 l 1716,-112 l 1725,-112 l 1732,-112 l 1790,-112 l 1805,-112 l 2041,-112 l 2041,-148 l 1805,-148xe" onmouseover="UpdateTooltip(this,4,157)" onclick="OnShapeClick(4,157)" onfocus="UpdateTooltip(this,4,157);" onkeyup="OnShapeKey(4,157)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5Ctemplates%5CTEMPLATE-Formulario%20De%20Solicitacao%20De%20Servico_00.doc" tabindex="1" title="- FSS: Formulário de Solicitação   de Serviço" origTitle="- FSS: Formulário de Solicitação   de Serviço"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1858,-237 l 2102,-237 l 2102,-273 l 1799,-273 l 1784,-273 l 1732,-273 l 1725,-273 l 1716,-273 l 1716,-241 l 1716,-237 l 1716,-205 l 1858,-205 l 1858,-237xe" onmouseover="UpdateTooltip(this,4,156)" onclick="OnShapeClick(4,156)" onfocus="UpdateTooltip(this,4,156);" onkeyup="OnShapeKey(4,156)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5Ctemplates%5CTEMPLATE-Tabela%20De%20Estimativa%20Projeto%20UC_00.xlt" tabindex="1" title="- TBE: Tabela de Estimativa" origTitle="- TBE: Tabela de Estimativa"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1799,-100 l 1784,-100 l 1732,-100 l 1725,-100 l 1716,-100 l 1716,-64 l 1725,-64 l 1732,-64 l 1784,-64 l 1799,-64 l 2050,-64 l 2050,-100 l 1799,-100xe" onmouseover="UpdateTooltip(this,4,158)" onclick="OnShapeClick(4,158)" onfocus="UpdateTooltip(this,4,158);" onkeyup="OnShapeKey(4,158)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5Ctemplates%5CTEMPLATE-Proposta%20Tecnica_00.doc" tabindex="1" title="- PTE: Proposta Técnica" origTitle="- PTE: Proposta Técnica"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1799,-194 l 1784,-194 l 1732,-194 l 1725,-194 l 1716,-194 l 1716,-158 l 1725,-158 l 1732,-158 l 1784,-158 l 1799,-158 l 2008,-158 l 2008,-194 l 1799,-194xe" onmouseover="UpdateTooltip(this,4,153)" onclick="OnShapeClick(4,153)" onfocus="UpdateTooltip(this,4,153);" onkeyup="OnShapeKey(4,153)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5Ctemplates%5CTEMPLATE-Formulario%20De%20Solicitacao%20De%20Servico_00.doc" tabindex="1" title="- PCP: Planilha de Controle de Projetos" origTitle="- PCP: Planilha de Controle de Projetos"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1802,-317 l 1787,-317 l 1732,-317 l 1725,-317 l 1716,-317 l 1716,-281 l 1725,-281 l 1732,-281 l 1787,-281 l 1802,-281 l 2188,-281 l 2188,-317 l 1802,-317xe" onmouseover="UpdateTooltip(this,4,195)" onclick="OnShapeClick(4,195)" onfocus="UpdateTooltip(this,4,195);" onkeyup="OnShapeKey(4,195)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5C..%5Corganograma%5CSPI-papeis_00.html" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1696,-563 l 2220,-563 l 2220,-711 l 1696,-711 l 1696,-563xe" onmouseover="UpdateTooltip(this,4,147)" onclick="OnShapeClick(4,147)" onfocus="UpdateTooltip(this,4,147);" onkeyup="OnShapeKey(4,147)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 634,954 l 634,955 l 634,957 l 634,958 l 635,960 l 635,961 l 635,963 l 636,964 l 636,966 l 637,967 l 637,969 l 638,970 l 638,972 l 639,973 l 640,974 l 641,976 l 641,977 l 642,978 l 643,979 l 644,981 l 645,982 l 646,983 l 647,984 l 649,985 l 650,986 l 651,987 l 652,988 l 654,989 l 655,989 l 656,990 l 658,991 l 659,992 l 661,992 l 662,993 l 663,993 l 665,994 l 666,994 l 668,994 l 669,995 l 671,995 l 673,995 l 674,995 l 676,995 l 677,995 l 679,995 l 680,995 l 682,995 l 683,994 l 685,994 l 686,994 l 688,993 l 689,993 l 691,992 l 692,992 l 694,991 l 695,990 l 696,989 l 698,989 l 699,988 l 700,987 l 701,986 l 703,985 l 704,984 l 705,983 l 706,982 l 707,981 l 708,979 l 709,978 l 710,977 l 711,976 l 711,974 l 712,973 l 713,972 l 714,970 l 714,969 l 715,967 l 715,966 l 716,964 l 716,963 l 716,961 l 717,960 l 717,958 l 717,957 l 717,955 l 717,954 l 717,952 l 717,951 l 717,949 l 717,948 l 716,946 l 716,944 l 716,943 l 715,941 l 715,940 l 714,939 l 714,937 l 713,936 l 712,934 l 711,933 l 711,932 l 710,930 l 709,929 l 708,928 l 707,927 l 706,926 l 705,924 l 704,923 l 703,922 l 701,921 l 700,920 l 699,920 l 698,919 l 696,918 l 695,917 l 694,916 l 692,916 l 691,915 l 689,915 l 688,914 l 686,914 l 685,913 l 683,913 l 682,913 l 680,913 l 679,912 l 677,912 l 676,912 l 674,912 l 673,912 l 671,913 l 669,913 l 668,913 l 666,913 l 665,914 l 663,914 l 662,915 l 661,915 l 659,916 l 658,916 l 656,917 l 655,918 l 654,919 l 652,920 l 651,920 l 650,921 l 649,922 l 647,923 l 646,924 l 645,926 l 644,927 l 643,928 l 642,929 l 641,930 l 641,932 l 640,933 l 639,934 l 638,936 l 638,937 l 637,939 l 637,940 l 636,941 l 636,943 l 635,944 l 635,946 l 635,948 l 634,949 l 634,951 l 634,952 l 634,954xe" onmouseover="UpdateTooltip(this,4,185)" onclick="OnShapeClick(4,185)" onfocus="UpdateTooltip(this,4,185);" onkeyup="OnShapeKey(4,185)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_03_05" tabindex="1" title="Elaborar Proposta Comercial" origTitle="Elaborar Proposta Comercial"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 346,266 l 584,266 l 584,123 l 346,123 l 346,266xe" onmouseover="UpdateTooltip(this,4,27)" onclick="OnShapeClick(4,27)" onfocus="UpdateTooltip(this,4,27);" onkeyup="OnShapeKey(4,27)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PTE xPCO" origTitle="PTE xPCO"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 302,252 l 286,252 l 286,330 l 287,331 l 288,332 l 289,333 l 290,333 l 292,334 l 293,335 l 294,335 l 296,336 l 297,336 l 298,336 l 300,337 l 301,337 l 303,337 l 304,337 l 306,337 l 307,338 l 308,337 l 310,337 l 311,337 l 313,337 l 314,337 l 316,336 l 317,336 l 318,336 l 320,335 l 321,335 l 322,334 l 324,333 l 325,333 l 326,332 l 327,331 l 328,330 l 330,330 l 331,329 l 332,328 l 333,327 l 335,327 l 336,326 l 337,326 l 339,325 l 340,325 l 341,324 l 343,324 l 344,324 l 346,324 l 347,323 l 348,323 l 350,323 l 351,323 l 353,323 l 354,324 l 356,324 l 357,324 l 358,324 l 360,325 l 361,325 l 363,326 l 364,326 l 365,327 l 366,327 l 368,328 l 369,329 l 370,330 l 371,330 l 371,252 l 355,252 l 355,251 l 302,251 l 302,252xe" onmouseover="UpdateTooltip(this,4,129)" onclick="OnShapeClick(4,129)" onfocus="UpdateTooltip(this,4,129);" onkeyup="OnShapeKey(4,129)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 624,130 l 638,116 l 638,95 l 552,95 l 552,144 l 553,145 l 555,146 l 556,147 l 557,148 l 558,148 l 560,149 l 561,149 l 562,150 l 564,150 l 565,151 l 567,151 l 568,151 l 569,151 l 571,152 l 572,152 l 574,152 l 575,152 l 577,152 l 578,151 l 579,151 l 581,151 l 582,151 l 584,150 l 585,150 l 586,149 l 588,149 l 589,148 l 590,148 l 591,147 l 593,146 l 594,145 l 595,144 l 596,144 l 597,143 l 598,142 l 600,142 l 601,141 l 602,140 l 603,140 l 605,139 l 606,139 l 607,139 l 608,138 l 610,138 l 611,138 l 612,138 l 614,137 l 615,137 l 617,137 l 622,132 l 622,132 l 617,137 l 618,137 l 619,138 l 621,138 l 622,138 l 624,138 l 625,138 l 626,139 l 628,139 l 629,140 l 630,140 l 632,141 l 633,141 l 634,142 l 636,143 l 637,144 l 638,145 l 638,116 l 624,130 l 624,130xe" onmouseover="UpdateTooltip(this,4,99)" onclick="OnShapeClick(4,99)" onfocus="UpdateTooltip(this,4,99);" onkeyup="OnShapeKey(4,99)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 584,247 l 603,266 l 603,253 l 643,253 l 643,240 l 603,240 l 603,228 l 584,247xe" onmouseover="UpdateTooltip(this,4,218)" onclick="OnShapeClick(4,218)" onfocus="UpdateTooltip(this,4,218);" onkeyup="OnShapeKey(4,218)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_04_02" tabindex="1" title="Registrar Projeto Aceito" origTitle="Registrar Projeto Aceito"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1326,648 l 1564,648 l 1564,506 l 1326,506 l 1326,648xe" onmouseover="UpdateTooltip(this,4,213)" onclick="OnShapeClick(4,213)" onfocus="UpdateTooltip(this,4,213);" onkeyup="OnShapeKey(4,213)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="PCP" origTitle="PCP"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1265,679 l 1266,680 l 1267,681 l 1269,682 l 1270,682 l 1271,683 l 1273,684 l 1274,684 l 1275,685 l 1277,685 l 1278,685 l 1279,686 l 1281,686 l 1282,686 l 1284,686 l 1285,686 l 1287,687 l 1288,686 l 1289,686 l 1291,686 l 1292,686 l 1294,686 l 1295,685 l 1296,685 l 1298,685 l 1299,684 l 1301,684 l 1302,683 l 1303,682 l 1304,682 l 1306,681 l 1307,680 l 1308,679 l 1309,679 l 1310,678 l 1312,677 l 1313,676 l 1314,676 l 1315,675 l 1317,675 l 1318,674 l 1319,674 l 1321,673 l 1322,673 l 1324,673 l 1325,673 l 1327,672 l 1328,672 l 1329,672 l 1331,672 l 1332,672 l 1334,673 l 1335,673 l 1337,673 l 1338,673 l 1339,674 l 1341,674 l 1342,675 l 1343,675 l 1345,676 l 1346,676 l 1347,677 l 1348,678 l 1350,679 l 1351,679 l 1351,629 l 1265,629 l 1265,679xe" onmouseover="UpdateTooltip(this,4,214)" onclick="OnShapeClick(4,214)" onfocus="UpdateTooltip(this,4,214);" onkeyup="OnShapeKey(4,214)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1564,620 l 1583,639 l 1583,626 l 1622,626 l 1622,613 l 1583,613 l 1583,601 l 1564,620xe" onmouseover="UpdateTooltip(this,4,217)" onclick="OnShapeClick(4,217)" onfocus="UpdateTooltip(this,4,217);" onkeyup="OnShapeKey(4,217)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1740,292 l 1795,292 l 1796,292 l 1798,292 l 1799,292 l 1800,292 l 1801,291 l 1802,291 l 1803,291 l 1804,290 l 1805,290 l 1806,289 l 1806,289 l 1807,288 l 1808,287 l 1809,287 l 1810,286 l 1810,285 l 1811,284 l 1812,283 l 1812,283 l 1813,282 l 1813,281 l 1814,280 l 1814,279 l 1814,278 l 1815,277 l 1815,276 l 1815,275 l 1815,273 l 1815,272 l 1815,271 l 1815,270 l 1815,269 l 1815,268 l 1814,267 l 1814,266 l 1814,265 l 1813,264 l 1813,263 l 1812,262 l 1812,261 l 1811,260 l 1810,260 l 1810,259 l 1809,258 l 1808,257 l 1807,257 l 1806,256 l 1806,256 l 1805,255 l 1804,255 l 1803,254 l 1802,254 l 1801,253 l 1800,253 l 1799,253 l 1798,253 l 1796,253 l 1795,253 l 1740,253 l 1738,253 l 1737,253 l 1736,253 l 1735,253 l 1734,253 l 1733,254 l 1732,254 l 1731,255 l 1730,255 l 1729,256 l 1728,256 l 1728,257 l 1727,257 l 1726,258 l 1725,259 l 1725,260 l 1724,260 l 1723,261 l 1723,262 l 1722,263 l 1722,264 l 1721,265 l 1721,266 l 1721,267 l 1720,268 l 1720,269 l 1720,270 l 1720,271 l 1720,272 l 1720,273 l 1720,275 l 1720,276 l 1720,277 l 1721,278 l 1721,279 l 1721,280 l 1722,281 l 1722,282 l 1723,283 l 1723,283 l 1724,284 l 1725,285 l 1725,286 l 1726,287 l 1727,287 l 1728,288 l 1728,289 l 1729,289 l 1730,290 l 1731,290 l 1732,291 l 1733,291 l 1734,291 l 1735,292 l 1736,292 l 1737,292 l 1738,292 l 1740,292xe" onmouseover="UpdateTooltip(this,4,138)" onclick="OnShapeClick(4,138)" onfocus="UpdateTooltip(this,4,138);" onkeyup="OnShapeKey(4,138)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1722,387 l 1813,387 l 1813,331 l 1722,331 l 1722,387xe" onmouseover="UpdateTooltip(this,4,140)" onclick="OnShapeClick(4,140)" onfocus="UpdateTooltip(this,4,140);" onkeyup="OnShapeKey(4,140)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1725,762 l 1726,763 l 1727,764 l 1728,764 l 1729,765 l 1731,766 l 1732,766 l 1733,767 l 1735,767 l 1736,768 l 1738,768 l 1739,768 l 1740,769 l 1742,769 l 1743,769 l 1745,769 l 1746,769 l 1747,769 l 1749,769 l 1750,769 l 1752,769 l 1753,768 l 1755,768 l 1756,768 l 1757,767 l 1759,767 l 1760,766 l 1761,766 l 1763,765 l 1764,764 l 1765,764 l 1766,763 l 1767,762 l 1769,761 l 1770,760 l 1771,760 l 1772,759 l 1774,758 l 1775,758 l 1776,757 l 1778,757 l 1779,756 l 1780,756 l 1782,756 l 1783,755 l 1785,755 l 1786,755 l 1787,755 l 1789,755 l 1790,755 l 1792,755 l 1793,755 l 1795,755 l 1796,756 l 1797,756 l 1799,756 l 1800,757 l 1802,757 l 1803,758 l 1804,758 l 1805,759 l 1807,760 l 1808,760 l 1809,761 l 1810,762 l 1810,710 l 1725,710 l 1725,762xe" onmouseover="UpdateTooltip(this,4,148)" onclick="OnShapeClick(4,148)" onfocus="UpdateTooltip(this,4,148);" onkeyup="OnShapeKey(4,148)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1720,452 l 1767,481 l 1815,452 l 1767,422 l 1720,452xe" onmouseover="UpdateTooltip(this,4,141)" onclick="OnShapeClick(4,141)" onfocus="UpdateTooltip(this,4,141);" onkeyup="OnShapeKey(4,141)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m 1725,661 l 1726,662 l 1727,663 l 1728,663 l 1729,664 l 1731,665 l 1732,665 l 1733,666 l 1734,666 l 1736,667 l 1737,667 l 1738,667 l 1740,668 l 1741,668 l 1743,668 l 1744,668 l 1745,668 l 1747,668 l 1748,668 l 1750,668 l 1751,668 l 1752,668 l 1754,667 l 1755,667 l 1756,667 l 1758,666 l 1759,666 l 1760,665 l 1762,665 l 1763,664 l 1764,663 l 1765,663 l 1766,662 l 1767,661 l 1769,660 l 1770,659 l 1771,659 l 1772,658 l 1773,657 l 1774,657 l 1776,656 l 1777,656 l 1778,655 l 1780,655 l 1781,654 l 1782,654 l 1783,654 l 1785,654 l 1786,654 l 1788,654 l 1789,653 l 1810,632 l 1810,609 l 1725,609 l 1725,661x m 1789,654 l 1790,654 l 1792,654 l 1793,654 l 1794,654 l 1796,654 l 1797,654 l 1798,655 l 1800,655 l 1801,656 l 1802,656 l 1803,657 l 1805,657 l 1806,658 l 1807,659 l 1808,659 l 1809,660 l 1810,661 l 1810,632 l 1789,654xe" onmouseover="UpdateTooltip(this,4,34)" onclick="OnShapeClick(4,34)" onfocus="UpdateTooltip(this,4,34);" onkeyup="OnShapeKey(4,34)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="..%5CPEPP_Fase_Prospeccao.html#01_01_02" tabindex="1" title="Comunicar cancelamento ao Cliente" origTitle="Comunicar cancelamento ao Cliente"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -794,9 l -556,9 l -556,-134 l -794,-134 l -794,9xe" onmouseover="UpdateTooltip(this,4,12)" onclick="OnShapeClick(4,12)" onfocus="UpdateTooltip(this,4,12);" onkeyup="OnShapeKey(4,12)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="FSS PCP" origTitle="FSS PCP"  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -843,-24 l -860,-24 l -860,54 l -858,55 l -857,56 l -856,57 l -855,57 l -853,58 l -852,58 l -851,59 l -849,59 l -848,60 l -847,60 l -845,61 l -844,61 l -842,61 l -841,61 l -840,61 l -838,61 l -837,61 l -835,61 l -834,61 l -832,61 l -831,61 l -830,60 l -828,60 l -827,59 l -825,59 l -824,58 l -823,58 l -822,57 l -820,57 l -819,56 l -818,55 l -817,54 l -816,53 l -814,53 l -813,52 l -812,51 l -811,50 l -809,50 l -808,49 l -807,49 l -805,48 l -804,48 l -802,48 l -801,47 l -800,47 l -798,47 l -797,47 l -795,47 l -794,47 l -792,47 l -791,47 l -790,47 l -788,48 l -787,48 l -785,48 l -784,49 l -783,49 l -781,50 l -780,50 l -779,51 l -777,52 l -776,53 l -775,53 l -774,54 l -774,-24 l -791,-24 l -791,-25 l -843,-25 l -843,-24xe" onmouseover="UpdateTooltip(this,4,189)" onclick="OnShapeClick(4,189)" onfocus="UpdateTooltip(this,4,189);" onkeyup="OnShapeKey(4,189)"/> 
+
+<v:shape type="#VISSHAPE"   tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -508,-140 l -493,-155 l -493,-176 l -579,-176 l -579,-127 l -577,-126 l -576,-125 l -575,-124 l -574,-123 l -572,-123 l -571,-122 l -570,-122 l -568,-121 l -567,-121 l -566,-120 l -564,-120 l -563,-120 l -562,-120 l -560,-119 l -559,-119 l -557,-119 l -556,-119 l -554,-119 l -553,-120 l -551,-120 l -550,-120 l -549,-120 l -547,-121 l -546,-121 l -545,-122 l -543,-122 l -542,-123 l -541,-123 l -539,-124 l -538,-125 l -537,-126 l -536,-127 l -535,-127 l -534,-128 l -532,-129 l -531,-129 l -530,-130 l -529,-131 l -528,-131 l -526,-132 l -525,-132 l -524,-132 l -522,-133 l -521,-133 l -520,-133 l -518,-133 l -517,-134 l -516,-134 l -514,-134 l -509,-139 l -509,-139 l -514,-134 l -513,-134 l -511,-133 l -510,-133 l -509,-133 l -507,-133 l -506,-133 l -504,-132 l -503,-132 l -502,-131 l -500,-131 l -499,-130 l -498,-130 l -497,-129 l -495,-128 l -494,-127 l -493,-126 l -493,-155 l -508,-140 l -508,-140xe" onmouseover="UpdateTooltip(this,4,190)" onclick="OnShapeClick(4,190)" onfocus="UpdateTooltip(this,4,190);" onkeyup="OnShapeKey(4,190)"/> 
+
+<v:shape type="#VISSHAPE"  style = "cursor: pointer;" origHref="" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:3273;height:2000;position:absolute" path=" m -556,-10 l -537,9 l -537,-4 l -498,-4 l -498,-16 l -537,-16 l -537,-29 l -556,-10xe" onmouseover="UpdateTooltip(this,4,223)" onclick="OnShapeClick(4,223)" onfocus="UpdateTooltip(this,4,223);" onkeyup="OnShapeKey(4,223)"/> 
+
+</v:group>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+

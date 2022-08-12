@@ -1,0 +1,183 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" 
+ xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5"/>
+<link rel="stylesheet" type="text/css" href="visio.css"/>
+<title>Fase de Liberação</title>
+<style type="text/css">
+	 v\:* { behavior: url(#default#VML); }
+</style>
+
+<script src="vml_6.js" type="text/jscript" language="jscript"></script>
+
+<script type="text/jscript" language="jscript">
+
+	var pageID = 7;
+	var viewMgr = null;
+
+	if (parent.g_FirstPageToLoad != null && parent.g_FirstPageToLoad.length > 0)
+	{
+		if (parent.g_FileList[parent.g_CurPageIndex].PageID != pageID)
+		{
+			location.replace(parent.g_FileList[parent.g_CurPageIndex].PriImage);
+		}
+
+		parent.g_FirstPageToLoad = null;
+	}
+
+	function getPNZ()
+	{
+		var rawHTML = VMLDiv.innerHTML;
+		var strReturn = ""
+		
+		strReturn = rawHTML.slice( rawHTML.indexOf( '<v:group' ), rawHTML.indexOf( "</v:shape>" ) );
+		strReturn += "</v:shape></v:group>\n";
+				
+		return strReturn;
+	}
+	
+	function load()
+	{
+		viewMgr = new parent.CViewMgr("ConvertedImage", "arrowDiv");
+
+		viewMgr.put_Location = ViewMgrSetVMLLocation;
+
+
+		viewMgr.visBBoxLeft = 0.001668;
+		viewMgr.visBBoxRight = 7.367206;
+		viewMgr.visBBoxBottom = 0.001668;
+		viewMgr.visBBoxTop = 8.964604;
+
+		viewMgr.Zoom = VMLZoomChange;
+		viewMgr.setView= VMLSetView;
+
+		viewMgr.SupportsDetails = true;
+		viewMgr.SupportsSearch = true;
+
+		parent.viewMgr = viewMgr;
+
+		fit();
+	}
+
+	function unload()
+	{
+		viewMgr = null;
+		parent.viewMgr = null;
+	}
+
+	function fit()
+	{
+		if(parent.frmToolbar)
+		{
+			if (parent.g_WidgetsLoaded)
+			{
+				var zoom100 = parent.frmToolbar.document.all('a100');
+				if (zoom100)
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					zoom100.click();
+				}
+				else
+				{
+					parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+					viewMgr.Zoom(100);
+				}
+			}
+			else
+			{
+				window.setTimeout("fit()", 500);
+			}
+		}	
+		else
+		{
+			parent.viewMgr.PostZoomProcessing = PostZoomProcessing;
+			viewMgr.Zoom(100);
+		}
+	}
+
+	function PostZoomProcessing (newZoomLevel)
+	{
+		parent.viewMgr.PostZoomProcessing = null;
+		var pageIndex = parent.PageIndexFromID (pageID);
+		parent.viewMgr.getPNZ = getPNZ;
+		parent.CurPageUpdate (pageIndex);
+	}
+
+
+	
+	var isUpLevel = parent.isUpLevel;
+	var OnShapeClick = parent.OnShapeClick;
+	var OnShapeKey = parent.OnShapeKey;
+	var UpdateTooltip = parent.UpdateTooltip;
+	var clickMenu = parent.clickMenu;
+	var toggleMenuDiv = parent.toggleMenuDiv;
+	var toggleMenuLink = parent.toggleMenuLink;
+	var GoToPage = parent.GoToPage;
+
+	window.onload = load;
+	window.onunload = unload;
+	document.onclick = clickMenu;
+
+
+
+
+</script>
+
+</head>
+
+<body style="MARGIN:10px" onresize="VMLOnResize();" onscroll="VMLOnScroll();">
+
+<div id="arrowdiv" style="position:absolute;top:0;left:0;visibility:hidden;z-index:5">
+<img id="arrowgif" alt="Mostra o local da forma selecionada" src="arrow.gif"/>
+</div>
+
+<div id="menu1" onclick="clickMenu()" class="hlMenu">
+</div>
+
+
+
+
+<div id="VMLDiv" >
+
+
+<v:group  id="ConvertedImage" style="width:3.287110in;height:4.000000in;position:absolute;visibility=hidden;" coordSize="1644,2000" coordOrigin="-1000,-1000" >
+
+<v:shapetype 
+  id="VISSHAPE"
+  target="_parent"
+  coordsize="1644,2000"
+  coordorigin="-1000,-1000"
+  stroked="f"
+  strokecolor="red"
+  filled="t"
+>
+<v:fill opacity="0.0"/>
+</v:shapetype>
+
+
+<v:shape style="top:-1000.0;left:-1000.0;width:1643.6;height:2000.0;position:absolute" coordSize="1644,2000" coordOrigin="-1000,-1000" >
+<v:imagedata src="vml_6.emz"/>
+</v:shape>
+
+<v:shape type="#VISSHAPE"  origHref="06.01.fecharrelease.htm" style="cursor: pointer;" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1644;height:2000;position:absolute" path=" m -775,-185 l -774,-184 l -773,-184 l -772,-184 l -771,-183 l -769,-183 l -768,-183 l -767,-182 l -766,-182 l -765,-181 l -764,-180 l -763,-180 l -762,-179 l -761,-178 l -761,-251 l -568,-251 l -568,-361 l -567,-361 l -566,-361 l -565,-361 l -563,-361 l -562,-361 l -561,-362 l -560,-362 l -559,-362 l -557,-363 l -556,-363 l -555,-363 l -554,-364 l -553,-364 l -552,-365 l -551,-365 l -550,-366 l -549,-367 l -548,-367 l -547,-367 l -545,-368 l -544,-368 l -543,-369 l -542,-369 l -540,-369 l -539,-369 l -538,-370 l -537,-370 l -535,-370 l -534,-370 l -534,-370 l -533,-370 l -532,-370 l -531,-370 l -530,-370 l -528,-370 l -527,-370 l -526,-370 l -525,-370 l -523,-369 l -522,-369 l -521,-369 l -520,-369 l -518,-368 l -517,-368 l -516,-368 l -515,-367 l -514,-367 l -513,-366 l -512,-366 l -512,-365 l -512,-366 l -512,-421 l -590,-421 l -590,-387 l -787,-387 l -787,-280 l -840,-280 l -840,-178 l -839,-178 l -837,-177 l -836,-176 l -835,-176 l -834,-175 l -833,-174 l -832,-174 l -830,-174 l -829,-173 l -828,-173 l -826,-172 l -825,-172 l -824,-172 l -823,-172 l -821,-172 l -820,-172 l -819,-172 l -817,-172 l -816,-172 l -815,-172 l -813,-172 l -812,-173 l -811,-173 l -810,-174 l -808,-174 l -807,-174 l -806,-175 l -805,-176 l -804,-176 l -802,-177 l -801,-178 l -800,-178 l -799,-179 l -798,-180 l -797,-180 l -796,-181 l -795,-182 l -794,-182 l -793,-183 l -792,-183 l -790,-183 l -789,-184 l -788,-184 l -787,-184 l -786,-185 l -775,-185x m -843,-382 l -843,-349 l -795,-349 l -795,-382 l -843,-382x m -512,-366 l -513,-366 l -514,-367 l -515,-367 l -516,-368 l -517,-368 l -518,-368 l -520,-369 l -521,-369 l -522,-369 l -523,-369 l -524,-370 l -526,-370 l -527,-370 l -528,-370 l -529,-370 l -530,-370 l -532,-370 l -533,-370 l -534,-370 l -533,-371 l -533,-371 l -532,-372 l -531,-373 l -530,-373 l -530,-374 l -529,-374 l -528,-375 l -527,-375 l -526,-376 l -525,-376 l -524,-376 l -523,-377 l -522,-377 l -521,-377 l -520,-377 l -519,-378 l -518,-378 l -516,-378 l -515,-378 l -514,-378 l -513,-378 l -512,-378 l -512,-366x m -820,-429 l -821,-428 l -821,-428 l -822,-428 l -823,-428 l -823,-428 l -824,-428 l -825,-427 l -825,-427 l -826,-427 l -826,-426 l -827,-426 l -827,-425 l -828,-425 l -828,-424 l -828,-424 l -829,-423 l -829,-423 l -829,-422 l -829,-421 l -829,-421 l -829,-420 l -829,-419 l -829,-419 l -829,-418 l -829,-417 l -829,-417 l -829,-416 l -829,-415 l -828,-415 l -828,-414 l -828,-414 l -828,-413 l -827,-413 l -827,-412 l -826,-412 l -826,-411 l -827,-410 l -827,-407 l -828,-407 l -829,-407 l -830,-407 l -831,-406 l -832,-406 l -832,-406 l -833,-405 l -834,-405 l -835,-404 l -835,-404 l -836,-403 l -837,-403 l -838,-402 l -838,-401 l -839,-401 l -839,-400 l -839,-385 l -798,-385 l -798,-400 l -798,-401 l -799,-401 l -799,-402 l -800,-403 l -801,-403 l -802,-404 l -802,-404 l -803,-405 l -804,-405 l -805,-406 l -806,-406 l -806,-406 l -807,-407 l -808,-407 l -809,-407 l -810,-407 l -811,-407 l -811,-408 l -812,-410 l -812,-410 l -811,-411 l -811,-411 l -811,-412 l -810,-413 l -810,-413 l -810,-414 l -809,-414 l -809,-415 l -809,-416 l -809,-416 l -809,-417 l -809,-418 l -809,-418 l -809,-419 l -809,-420 l -809,-420 l -810,-421 l -810,-422 l -810,-422 l -810,-423 l -811,-424 l -811,-424 l -812,-425 l -812,-425 l -813,-426 l -813,-426 l -814,-426 l -814,-427 l -815,-427 l -816,-427 l -816,-428 l -817,-428 l -817,-428 l -818,-428 l -819,-428 l -819,-428 l -820,-429x m -821,-402 l -816,-402 l -817,-402 l -817,-402 l -818,-402 l -818,-402 l -819,-402 l -819,-402 l -820,-402 l -820,-402 l -821,-402xe" onmouseover="UpdateTooltip(this,7,12)" onclick="OnShapeClick(7,12)" onfocus="UpdateTooltip(this,7,12);" onkeyup="OnShapeKey(7,12)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="06.02.homologar.htm" style="cursor: pointer;" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1644;height:2000;position:absolute" path=" m -25,-385 l -24,-385 l -23,-386 l -22,-386 l -21,-387 l -20,-387 l -19,-387 l -18,-388 l -16,-388 l -15,-388 l -14,-388 l -13,-388 l -12,-388 l -11,-388 l -10,-372 l -11,-372 l -12,-373 l -13,-373 l -14,-374 l -15,-374 l -16,-375 l -17,-375 l -18,-376 l -20,-376 l -21,-376 l -22,-377 l -23,-377 l -24,-377 l -25,-377 l -27,-378 l -28,-378 l -29,-378 l -30,-378 l -32,-378 l -33,-378 l -32,-378 l -32,-379 l -31,-380 l -30,-381 l -25,-381 l -25,-385x m -10,-372 l -10,-446 l -89,-446 l -89,-391 l -286,-391 l -286,-284 l -338,-284 l -338,-151 l -337,-150 l -336,-149 l -335,-148 l -334,-148 l -333,-147 l -331,-147 l -330,-146 l -329,-146 l -328,-145 l -326,-145 l -325,-145 l -324,-144 l -323,-144 l -321,-144 l -320,-144 l -319,-144 l -317,-144 l -316,-144 l -315,-144 l -313,-144 l -312,-145 l -311,-145 l -310,-145 l -308,-146 l -307,-146 l -306,-147 l -305,-147 l -303,-148 l -302,-148 l -301,-149 l -300,-150 l -299,-151 l -298,-151 l -297,-152 l -296,-153 l -294,-153 l -293,-154 l -292,-155 l -291,-155 l -290,-155 l -288,-156 l -287,-156 l -286,-156 l -285,-157 l -283,-157 l -282,-157 l -281,-157 l -279,-157 l -278,-157 l -277,-157 l -275,-157 l -274,-157 l -273,-156 l -271,-156 l -270,-156 l -269,-155 l -268,-155 l -266,-155 l -265,-154 l -264,-153 l -263,-153 l -262,-152 l -261,-151 l -260,-151 l -260,-256 l -67,-256 l -67,-365 l -66,-365 l -65,-365 l -63,-366 l -62,-366 l -61,-366 l -60,-366 l -59,-367 l -57,-367 l -56,-368 l -55,-368 l -54,-369 l -53,-369 l -52,-370 l -51,-371 l -50,-371 l -49,-372 l -47,-373 l -46,-373 l -45,-374 l -44,-375 l -43,-375 l -42,-376 l -40,-376 l -39,-376 l -38,-377 l -37,-377 l -35,-377 l -34,-377 l -33,-378 l -33,-377 l -32,-377 l -31,-378 l -30,-378 l -29,-378 l -27,-378 l -26,-377 l -25,-377 l -24,-377 l -23,-377 l -22,-377 l -21,-376 l -19,-376 l -18,-376 l -17,-375 l -16,-375 l -15,-374 l -14,-374 l -13,-373 l -12,-373 l -11,-372 l -10,-371 l -10,-372x m -300,-357 l -300,-387 l -336,-387 l -336,-357 l -338,-357 l -338,-324 l -297,-324 l -297,-357 l -300,-357x m -319,-433 l -320,-433 l -320,-433 l -321,-433 l -322,-433 l -322,-432 l -323,-432 l -323,-432 l -324,-431 l -325,-431 l -325,-431 l -326,-430 l -326,-430 l -326,-429 l -327,-429 l -327,-428 l -327,-428 l -328,-427 l -328,-426 l -328,-426 l -328,-425 l -328,-424 l -328,-424 l -328,-423 l -328,-422 l -328,-422 l -328,-421 l -328,-421 l -327,-420 l -327,-419 l -327,-419 l -327,-418 l -326,-418 l -326,-417 l -325,-416 l -325,-416 l -325,-416 l -326,-414 l -326,-412 l -327,-411 l -328,-411 l -329,-411 l -329,-411 l -330,-410 l -331,-410 l -332,-410 l -333,-409 l -333,-409 l -334,-408 l -335,-408 l -336,-407 l -336,-406 l -337,-406 l -337,-405 l -338,-404 l -338,-389 l -296,-389 l -296,-404 l -297,-405 l -297,-406 l -298,-406 l -299,-407 l -300,-408 l -300,-408 l -301,-409 l -302,-409 l -303,-410 l -303,-410 l -304,-411 l -305,-411 l -306,-411 l -307,-411 l -308,-411 l -309,-412 l -310,-412 l -310,-413 l -311,-414 l -311,-415 l -310,-415 l -310,-416 l -309,-416 l -309,-417 l -309,-417 l -308,-418 l -308,-419 l -308,-419 l -308,-420 l -308,-421 l -308,-421 l -308,-422 l -308,-423 l -308,-423 l -308,-424 l -308,-425 l -308,-425 l -309,-426 l -309,-427 l -309,-427 l -310,-428 l -310,-428 l -310,-429 l -311,-429 l -312,-430 l -312,-430 l -313,-431 l -313,-431 l -314,-431 l -314,-432 l -315,-432 l -316,-432 l -316,-433 l -317,-433 l -317,-433 l -318,-433 l -319,-433x m -320,-406 l -315,-406 l -315,-406 l -316,-406 l -316,-406 l -317,-406 l -317,-406 l -318,-406 l -319,-406 l -319,-406 l -320,-406xe" onmouseover="UpdateTooltip(this,7,32)" onclick="OnShapeClick(7,32)" onfocus="UpdateTooltip(this,7,32);" onkeyup="OnShapeKey(7,32)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="06.03.implantar.htm" style="cursor: pointer;" tabindex="1" title="" origTitle=""  style="top:-1000;left:-1000;width:1644;height:2000;position:absolute" path=" m -301,421 l -298,421 l -298,388 l -339,388 l -339,421 l -336,421 l -336,451 l -301,451 l -301,421x m -90,383 l -287,383 l -287,491 l -339,491 l -339,595 l -338,596 l -337,596 l -336,597 l -335,598 l -333,598 l -332,599 l -331,599 l -330,600 l -328,600 l -327,601 l -326,601 l -325,601 l -323,601 l -322,601 l -321,601 l -319,601 l -318,601 l -317,601 l -315,601 l -314,601 l -313,601 l -312,601 l -310,600 l -309,600 l -308,599 l -307,599 l -305,598 l -304,598 l -303,597 l -302,596 l -301,596 l -300,595 l -299,594 l -298,593 l -296,593 l -295,592 l -294,592 l -293,591 l -292,590 l -290,590 l -289,590 l -288,589 l -287,589 l -285,589 l -284,589 l -283,588 l -281,588 l -280,588 l -279,588 l -277,588 l -276,589 l -275,589 l -273,589 l -272,589 l -271,590 l -270,590 l -268,590 l -267,591 l -266,592 l -265,592 l -264,593 l -262,593 l -261,594 l -260,595 l -260,519 l -68,519 l -68,410 l -67,410 l -65,409 l -64,409 l -63,409 l -62,409 l -60,409 l -59,408 l -58,408 l -57,408 l -56,407 l -55,407 l -54,406 l -52,406 l -51,405 l -50,405 l -49,404 l -48,404 l -47,403 l -46,403 l -45,402 l -44,402 l -42,401 l -41,401 l -40,401 l -39,401 l -37,400 l -36,400 l -35,400 l -34,400 l -34,400 l -33,400 l -31,400 l -30,400 l -29,400 l -28,400 l -27,400 l -25,400 l -24,400 l -23,401 l -22,401 l -20,401 l -19,401 l -18,402 l -17,402 l -16,402 l -15,403 l -14,403 l -13,404 l -12,404 l -11,405 l -11,405 l -11,346 l -90,346 l -90,383x m -11,405 l -12,404 l -13,403 l -14,403 l -16,403 l -17,402 l -18,402 l -19,401 l -20,401 l -21,401 l -23,401 l -24,400 l -25,400 l -26,400 l -27,400 l -29,400 l -30,400 l -31,400 l -32,400 l -34,400 l -33,399 l -32,399 l -32,398 l -31,397 l -30,397 l -29,396 l -28,396 l -27,395 l -26,395 l -25,394 l -24,394 l -23,393 l -22,393 l -21,393 l -20,392 l -19,392 l -18,392 l -17,392 l -16,392 l -15,392 l -14,392 l -12,392 l -11,392 l -11,405x m -320,342 l -320,342 l -321,342 l -322,342 l -322,342 l -323,342 l -324,343 l -324,343 l -325,343 l -325,344 l -326,344 l -326,345 l -327,345 l -327,346 l -328,346 l -328,347 l -328,347 l -328,348 l -329,348 l -329,349 l -329,350 l -329,350 l -329,351 l -329,352 l -329,352 l -329,353 l -329,354 l -328,354 l -328,355 l -328,356 l -328,356 l -327,357 l -327,357 l -327,358 l -326,358 l -326,359 l -325,359 l -327,361 l -327,363 l -328,363 l -328,364 l -329,364 l -330,364 l -331,364 l -332,365 l -333,365 l -333,366 l -334,366 l -335,367 l -336,367 l -336,368 l -337,368 l -338,369 l -338,370 l -339,371 l -339,386 l -297,386 l -297,371 l -298,370 l -298,369 l -299,368 l -300,368 l -300,367 l -301,367 l -302,366 l -303,365 l -303,365 l -304,365 l -305,364 l -306,364 l -307,364 l -308,363 l -309,363 l -310,363 l -310,363 l -310,362 l -312,360 l -311,360 l -311,359 l -310,359 l -310,358 l -310,358 l -309,357 l -309,357 l -309,356 l -309,355 l -309,355 l -309,354 l -308,353 l -308,353 l -308,352 l -309,351 l -309,351 l -309,350 l -309,349 l -309,349 l -310,348 l -310,347 l -310,347 l -311,346 l -311,346 l -312,345 l -312,345 l -313,344 l -313,344 l -314,344 l -314,343 l -315,343 l -316,343 l -316,342 l -317,342 l -318,342 l -318,342 l -319,342 l -320,342x m -320,368 l -316,368 l -316,369 l -317,369 l -317,369 l -318,369 l -318,369 l -319,369 l -319,369 l -320,369 l -320,368xe" onmouseover="UpdateTooltip(this,7,44)" onclick="OnShapeClick(7,44)" onfocus="UpdateTooltip(this,7,44);" onkeyup="OnShapeKey(7,44)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="" style="cursor: pointer;" tabindex="1" title="Desenv." origTitle="Desenv."  style="top:-1000;left:-1000;width:1644;height:2000;position:absolute" path=" m -735,-608 l -679,-636 l -624,-608 l -624,-719 l -735,-719 l -735,-608xe" onmouseover="UpdateTooltip(this,7,88)" onclick="OnShapeClick(7,88)" onfocus="UpdateTooltip(this,7,88);" onkeyup="OnShapeKey(7,88)"/> 
+
+<v:shape type="#VISSHAPE"  origHref="" style="cursor: pointer;" tabindex="1" title="GRE" origTitle="GRE"  style="top:-1000;left:-1000;width:1644;height:2000;position:absolute" path=" m -645,18 l -645,74 l -589,130 l -534,74 l -534,18 l -645,18xe" onmouseover="UpdateTooltip(this,7,91)" onclick="OnShapeClick(7,91)" onfocus="UpdateTooltip(this,7,91);" onkeyup="OnShapeKey(7,91)"/> 
+
+</v:group>
+
+
+
+</div>
+
+
+
+</body>
+</html>
+

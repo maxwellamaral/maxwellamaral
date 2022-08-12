@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Atividade: Receber contato</title>
+<link href="../../css/estilo1.css" rel="stylesheet" type="text/css" />
+<!--mstheme--><link rel="stylesheet" type="text/css" id="onetidThemeCSS" href="../../../_themes/Lichen/Lich1011-65001.css"><meta name="Microsoft Theme" content="Lichen 1011, default">
+<style type="text/css">
+.style2 {
+	border-width: 0px;
+}
+.style7 {
+	border-style: solid;
+	border-width: 1px;
+}
+</style>
+</head>
+<body>
+<table width="800px" border="0">
+  <tr>
+    <td width="50%"><img src="../../imagens/simplestec.jpg" alt="Simplestec" width="349" height="71" align="absmiddle"/></td>
+    <td width="50%"><h1>Detalhamento das atividades</h1>
+      <h2>01 - Atendimento</h2>
+      <!--<iframe src="../../outros/VersaoProcesso.htm"> </iframe>-->
+      <!--#include file="/PU/outros/VersaoProcesso.inc" -->
+    </td>
+    <br />
+  </tr>
+  <tr>
+    <td colspan="2"><h3>01.01 - Etapa de Atendimento </h3></td>
+  </tr>
+</table>
+<table width="800" border="1" cellpadding="5" class="tabinf">
+  <tr>
+    <td colspan="2" bgcolor="#E3EDF9"><h4 class="titativ">01.01.01. Receber contato</h4></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Finalidade</h5>
+      Iniciar atendimento ao cliente, registrando as informações básicas.</td>
+  </tr>
+  <tr valign="top">
+    <td width="50%"><h5>Artefatos de Entrada</h5>
+      <a href="../../artefatos/ATA.htm">ATA – Atas de Reunião</a><br />
+      <a href="../../artefatos/OPT.htm">OTR – Outros Produtos de Trabalho</a></td>
+    <td width="50%"><h5>Artefatos de Saída</h5>
+      RAC – Registro de Atendimento ao Cliente </td>
+  </tr>
+  <tr>
+    <td><h5>Papel Responsável: </h5>
+      <a href="../../papeis/Atendente.htm">ATD - Atendente</a></td>
+    <td><h5>Papel Participante: </h5>
+      Nenhum</td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Ferramentas</h5>
+      Sistema de Atendimento e Solicitações</td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Passos</h5>
+      <ol>
+        <li><a name="passo1" id="passo1"></a>Atender cliente ao telefone;</li>
+        <li>Obter entendimento junto ao cliente e verifica que o domínio de atendimento pertence a UO;</li>
+        <li>Registrar a descrição do problema ou informação, produto em atendimento, canal de comunicação, nome do cliente, nível de urgência, reprodução do problema (se for o caso) e observações (optativo) utilizando o sistema de atendimento; </li>
+        <li>Referenciar possíveis anexos referentes ao documento. Os anexos em formato digital serão salvos na <a href="#PastaAtdPad">pasta de atendimento</a> 
+		no formato abaixo especificado;</li>
+        <li>Salvar o registro de atendimento; </li>
+        <li>Sistema registra data, hora, nome do atendente e status para &quot;Iniciado&quot;; </li>
+        <li>Sistema gera  um <a href="#IdRAC">número de atendimento</a>;</li>
+        <li>Informar ao cliente o número de registro do atendimento;</li>
+        <li><a name="passo9" id="passo9"></a>Continuar em &quot;<a href="01.01.02. Analisar contato.htm">Analisar contato</a>&quot; </li>
+      </ol></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Passos Alternativos </h5>
+      <ol>
+        <li><em>Atender cliente através de email<br/>
+          </em>No <a href="#passo1">passo 1</a>, ao receber um email de um cliente solicitando atendimento, salvar o email na 
+		<a name="pasta_de_atendimento">pasta de atendimento</a>&nbsp; no formato 
+		abaixo especificado, registrar o atendimento no sistema e referenciar no RAC o caminho do arquivo de email salvo na pasta. Continuar no <a href="#passo2">passo 2</a>; </li>
+        <li><em>Atender cliente através das atas de reunião encaminhadas</em><br/>
+          No <a href="#passo1">passo 1</a>, ao receber uma ata de reunião técnica, registrar o atendimento no sistema e referenciar no RAC o identificador da ata. A ata será arquivada no <a href="#ArqFis">arquivo físico</a> 
+		ou em formato digital, conforme disponibilidade. Continuar no <a href="#passo2">passo 2</a>; </li>
+        <li><em>Atender cliente através de comunicador instantâneo</em><br/>
+          No <a href="#passo1">passo 1</a>, ao atender um cliente através de um comunicar instantâneo (MSN Messenger, GTalk, Skype), salvar a conversação na <a href="#PastaAtdPad">pasta de atendimento</a> 
+		no formato abaixo especificado, registrar o atendimento no sistema e referenciar no RAC o caminho da conversação salvo na pasta. Continuar no <a href="#passo2">passo 2</a>; </li>
+        <li><em>Domínio do atendimento  não pertence à UO</em><br/>
+          No <a href="#passo2">passo 2</a>, se o problema não pertence à UO, o atendente orienta cliente a procurar a UO competente. Não registrar atendimento no sistema. Concluir processo. </li>
+        <li><em>Análise  imediato do contato</em><br/>
+          No <a href="#passo3">passo 3 </a>, se o atendente obter entendimento imediato e a resposta a dúvida, continuar no <a href="#passo9">passo 9</a> - Analisar contato. </li>
+      </ol></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Observações</h5>
+      <ul>
+        <li>
+          <!--include file="../../outros/PastaAtdPadrao.inc" -->
+          <em><a name="PastaAtdPad" id="PastaAtdPad"></a>Pasta de atendimento padrão</em><br />
+          Caminho da pasta e nome do arquivo:<em> &quot;\\nome_do_servidor\atendimento\nome_da_UO\nome_produto\cliente\ANXRACxxxxyyyyyy-nome_arquivo.ext&quot;<br />
+          <br />
+          </em>
+          <table width="100%" border="0">
+            <tr>
+              <td width="9%"><strong>Exemplos:</strong></td>
+              <td width="91%">&quot;\\formosa\atendimento\tributario\sistema tributario\pmjp\ATARAC2007000345 ata de reuni&atilde;o.pdf&quot; </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&quot;\\formosa\atendimento\orcamentario\orca\pmni\MSNRAC2007000346 conversa&ccedil;&atilde;o com fulano de tal.rtf&quot; </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&quot;\\formosa\atendimento\bi\consultoria\caruaru\ANXRAC2007000340 comparativo pessoal afastado por evento.rep&quot; </td>
+            </tr>
+          </table>
+          <br />
+        </li>
+        <li>
+          <!--include file="../../outros/ArquivoFisico.inc" -->
+		  <em><a name="ArqFis" id="ArqFis"></a>Arquivo físico </em><br />
+Lugar onde se recolhem e guardam documentos. Cada UO disponibilizará de um. 
+        </li>
+        <li><em><a name="IdRAC" id="IdRAC"></a>Formato do número de atendimento </em><br />
+          Formato: <strong>xxxx/yyyyyy</strong><br />
+          onde:
+          <blockquote><strong>xxxx</strong> é o ano em que foi realizado o atendimento<br />
+            <strong>yyyyyyy</strong> é um identificador sequencial.</blockquote>
+          Ex.: 2007/123456 <br /><br/>
+		</li>
+		<li><em>Formato dos anexos</em>
+		<p>
+		<table style="width: 100%; font-size:14px " class="style2">
+			<tr>
+				<td class="style7">Conversação Comunicador Instantâneo</td>
+				<td class="style7"><strong>MSNRACxxxxyyyyyy</strong> Assunto tratado.rtf</td>
+				<td class="style7">MSNRAC2008000057 Conversação com Fulano da Prefeitura.rtf</td>
+			</tr>
+			<tr>
+				<td class="style7">Email</td>
+				<td class="style7"><strong>EMLRACxxxxyyyyyy</strong> Assunto tratado.ext</td>
+				<td class="style7">EMLRAC2008000057 Modificação da tela de assuntos gerais.doc</td>
+			</tr>
+			<tr>
+				<td class="style7">Atas de reunião</td>
+				<td class="style7"><strong>ATARACxxxxyyyyyy</strong> Assunto tratado</td>
+				<td class="style7">ATARAC2008000057 Novos requisitos do sistema de aquisição de 
+				software</td>
+			</tr>
+			<tr>
+				<td class="style7">Anexos Gerais</td>
+				<td class="style7"><strong>ANXRACxxxxyyyyyy</strong> Assunto tratado</td>
+				<td class="style7">ANXRAC2008000057 Foto do protótipo do novo sistema.jpg</td>
+			</tr>
+		</table>
+		</p>
+		<strong>RACxxxxyyyyyy</strong> é o identificador do Registro de 
+		Atendimento (RAC)<br />
+		<strong>ext</strong> é uma extensão de tipo de arquivo qualquer</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="2"><h5>Diagrama de Atividades<br />
+        <center>
+          <img src="imagens/receber_contato.png" alt="Receber contato" width="663" height="1150" border="0" usemap="#Map"/>
+        </center>
+      </h5></td>
+  </tr>
+</table>
+<map name="Map" id="Map">
+  <area shape="rect" coords="305,605,444,650" href="01.01.02. Analisar contato.htm" />
+</map>
+</body>
+</html>
