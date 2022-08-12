@@ -2,7 +2,7 @@
   <!-- Emojis em https://emojipedia.org/ -->
 - 👀 I’m interested in Innovation, Software Engineering, Internet of Things
 - 🌱 I’m currently learning IA, quantum algorithms, data science, software development etc.
-- 📫 How to reach me www.linkedin.com/in/maxwellcc
+- 📫 How to reach me www.linkedin.com/in/maxwellielpo
 - 📒 My curriculum in http://lattes.cnpq.br/7725418498659982
 <br>
 <!-- Aqui somente trocar o nome do usuário -->
