@@ -1,6 +1,5 @@
-## Olá! Eu sou o Maxwell Anderson
+## Hi! I'm Maxwell Anderson
   <!-- Emojis em https://emojipedia.org/ -->
-- 👋 Hi, I’m @maxwellamaral
 - 👀 I’m interested in Innovation, Software Engineering, Internet of Things
 - 🌱 I’m currently learning IA, quantum algorithms, data science, software development etc.
 - 📫 How to reach me www.linkedin.com/in/maxwellcc
@@ -19,10 +18,12 @@
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"> 
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="right" height="150" style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/107955034?v=4">
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">   
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg">   
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"> 
+  <!--
+  <img align="right" height="150" style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/107955034?v=4">
+  -->
 </div>
   
  ##
