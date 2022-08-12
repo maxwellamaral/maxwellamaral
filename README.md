@@ -2,9 +2,8 @@
   <!-- Emojis em https://emojipedia.org/ -->
 - 👀 I’m interested in Innovation, Software Engineering, Internet of Things
 - 🌱 I’m currently learning IA, quantum algorithms, data science, software development etc.
-- 📫 How to reach me www.linkedin.com/in/maxwellcc
-- 📒 My curriculum in <http://lattes.cnpq.br/7725418498659982>
-- 📦 Old Github repository at <https://github.com/maxwellcc>
+- 📫 How to reach me www.linkedin.com/in/maxwellielpo
+- 📒 My curriculum in http://lattes.cnpq.br/7725418498659982
 <br>
 <!-- Aqui somente trocar o nome do usuário -->
 <div align="center">
