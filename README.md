@@ -99,3 +99,8 @@ Melhoria de processos de software; Implantação; Engenharia de Software.
 
 * Disponível em https://maxwellamaral.github.io/PIMP/
   
+### Simulador de escalonamento de processos em sistemas operacionais 
+
+Aqui temos um simulador de escalonamento de processos de um sistema operacional multitarefa moderno que pode ser baixado e utilizado em sala de aula.
+
+* Disponível em https://maxwellamaral.github.io/escalonador/
