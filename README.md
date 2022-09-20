@@ -86,7 +86,16 @@
 
 </div>
  
-##
+# Páginas e projetos destacados
   
-* [Ensino](ensino/engsoft/engsoft.md)
+## Engenharia de Software
+
+### Processo para implantação de melhoria de processos de desenvolvimento de software
+
+Este trabalho está inserido no contexto da implantação de melhoria de processos de desenvolvimento de software e objetiva descrever  a estrutura e a organização do Processo de Implantação de Melhoria de Processos de Software (PIMP), desenvolvido e proposto para implantação de quaisquer abordagens e modelos de qualidade. Foram elaborados um modelo de ciclo de vida, um processo detalhado e navegável, sistemático e adaptável, descrevendo atividades, papéis responsáveis e participantes de uma atividade de implantação, e modelos de artefatos foram desenvolvidos para prover apoio ao processo de implantação da melhoria. 
+
+Palavras-chave
+Melhoria de processos de software; Implantação; Engenharia de Software.
+
+* Disponível em https://maxwellamaral.github.io/PIMP/
   
