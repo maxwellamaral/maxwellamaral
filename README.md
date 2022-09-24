@@ -90,40 +90,71 @@ ___
 
 # ✌🏻 O que tem por aqui?
 
+- [✌🏻 O que tem por aqui?](#-o-que-tem-por-aqui)
+  - [👨🏻‍🔬 Disciplinas do Ensino Técnico, Graduação e Pós-Graduação](#-disciplinas-do-ensino-técnico-graduação-e-pós-graduação)
+    - [📲 Software](#-software)
+    - [💻 Infraestrutura e Hardware](#-infraestrutura-e-hardware)
+    - [💡 Inovação e Gestão da Inovação](#-inovação-e-gestão-da-inovação)
+    - [👨🏻‍💼 Gestão de Tecnologia da Informação](#-gestão-de-tecnologia-da-informação)
+    - [⚒️ Outras disciplinas](#️-outras-disciplinas)
+  - [📖 Produção científica](#-produção-científica)
+    - [📚 Livro](#-livro)
+  - [⚒️ Projetos desenvolvidos](#️-projetos-desenvolvidos)
+  - [🤡 Jokes](#-jokes)
+  - [💾 Outros projetos pessoais públicos](#-outros-projetos-pessoais-públicos)
+  - [🔗 Forks encontrados por aí](#-forks-encontrados-por-aí)
+  - [📲 Projetos úteis](#-projetos-úteis)
+  - [📲 Infraestrutura](#-infraestrutura)
+
 ## 👨🏻‍🔬 Disciplinas do Ensino Técnico, Graduação e Pós-Graduação
 
 > Aqui estão/estarão disponíveis os materiais e recursos didáticos utilizados em salas de aulas, palestras e minicursos.
 
-- 📲 **Software**
-  - [Análise e Desenvolvimento de Sistemas](https://github.com/maxwellamaral/aula_eng_soft)
-  - [Engenharia de Software](https://github.com/maxwellamaral/aula_eng_soft)
-  - Desenvolvimento
-    - Algorítmos e Lógica de Programação
-    - Banco de Dados I e II
-    - Computação Gráfica e Sistemas Multimídia (Práticas)
-    - Desenvolvimento WEB
-    - [HTML & CSS](https://github.com/maxwellamaral/aula_html_css)
-- 💻 **Infraestrutura e Hardware**
-  - Manutenção e Montagem de Micros
-  - Segurança da Informação (Básico)
-  - Sistemas Operacionais Abertos
-- 💡 **Inovação e Gestão da Inovação**
-  - Introdução à Propriedade Intelectual (PI)
-    - Busca de anterioridades (patentes, programas de computador, desenho industrial)
-    - Redação de patentes
-  - Introdução à Gestão de PI
-  - Introdução à Gestão da Transferência de Tecnologia
-  - Gestão de NITs e de Inovação
-- 👨🏻‍💼 **Gestão de Tecnologia da Informação**
-  - Administração de Sistemas de Informação
-  - Fundamentos de Gestão de Serviços de TI (ITIL Básico)
-  - Gerenciamento Avançado de Serviços de TI (ITIL Avançado)
-  - Gerenciamento de Projetos (PMBOK)
-  - Microsoft Project para Iniciantes
-- ⚒️ **Outros**
-  - Design e Criatividade
+### 📲 Software
 
-## ⚒️ Outras coisas bacanas
+- [Análise e Desenvolvimento de Sistemas](https://github.com/maxwellamaral/aula_eng_soft)
+- [Engenharia de Software](https://github.com/maxwellamaral/aula_eng_soft)
+- Desenvolvimento
+  - Algorítmos e Lógica de Programação
+  - Banco de Dados I e II
+  - Computação Gráfica e Sistemas Multimídia (Práticas)
+  - Desenvolvimento WEB
+  - [HTML & CSS](https://github.com/maxwellamaral/aula_html_css)
+
+### 💻 Infraestrutura e Hardware
+
+- Manutenção e Montagem de Micros
+- Segurança da Informação (Básico)
+- Sistemas Operacionais Abertos
+
+### 💡 Inovação e Gestão da Inovação
+
+- Introdução à Propriedade Intelectual (PI)
+  - Busca de anterioridades (patentes, programas de computador, desenho industrial)
+  - Redação de patentes
+- Introdução à Gestão de PI
+- Introdução à Gestão da Transferência de Tecnologia
+  - Gestão de NITs e de Inovação
+
+### 👨🏻‍💼 Gestão de Tecnologia da Informação
+
+- Administração de Sistemas de Informação
+- Fundamentos de Gestão de Serviços de TI (ITIL Básico)
+- Gerenciamento Avançado de Serviços de TI (ITIL Avançado)
+- Gerenciamento de Projetos (PMBOK)
+- Microsoft Project para Iniciantes
+
+### ⚒️ Outras disciplinas
+
+- Design e Criatividade
+
+## 📖 Produção científica
+
+### 📚 Livro
+
+- [Implantação de melhoria de processos de software com CMMI-DEV nível 2](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
+
+## ⚒️ Projetos desenvolvidos
 
 - [Processo para implantação de melhoria de processos de desenvolvimento de software - PIMP](https://maxwellamaral.github.io/PIMP/)
 
