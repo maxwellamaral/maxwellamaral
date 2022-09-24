@@ -122,7 +122,7 @@ ___
 
 - [Einstein - Responde a qualquer pergunta pessoal](https://github.com/maxwellamaral/einstein)
 
-## 💾 Projetos pessoais
+## 💾 Outros projetos pessoais públicos
 
 - [Meu primeiro blockchain](https://github.com/maxwellamaral/blockchain_first)
 
