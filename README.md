@@ -1,4 +1,4 @@
-## Hi! I'm Maxwell Anderson
+## Hi! I'm Maxwell Anderson 🇧🇷🇩🇬🇺🇲
   <!-- Emojis em https://emojipedia.org/ -->
 - 👀 Sou interessado em Inovação, Engenharia de Software, Internet das Coisas
 - 🌱 Atualmente estou aprendendo IA, algoritmos quânticos, ciência de dados, desenvolvimento de software etc.
