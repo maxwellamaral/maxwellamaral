@@ -152,7 +152,9 @@ ___
 
 ### 📚 Livro
 
-- [Implantação de melhoria de processos de software com CMMI-DEV nível 2](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
+![image](https://user-images.githubusercontent.com/107955034/192101420-08158253-5f56-49c5-b4bb-9d2577177e90.png)
+
+- 💾 [Implantação de melhoria de processos de software com CMMI-DEV nível 2](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
 
 ## ⚒️ Projetos desenvolvidos
 
