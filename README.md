@@ -1,10 +1,11 @@
-## Hi! I'm Maxwell Anderson
+# Olá! Eu sou Maxwell Anderson
+
   <!-- Emojis em https://emojipedia.org/ -->
 - 👀 Sou interessado em Inovação, Engenharia de Software, Internet das Coisas
 - 🌱 Atualmente estou aprendendo IA, algoritmos quânticos, ciência de dados, desenvolvimento de software etc.
 - 📫 Como chegar até mim www.linkedin.com/in/maxwellielpo
 - 📒 Meu currículo em <http://lattes.cnpq.br/7725418498659982>
-<br>
+
 <!-- Aqui somente trocar o nome do usuário -->
 <div align="center">
   <a href="https://github.com/maxwellamaral">
@@ -90,17 +91,18 @@ ___
 
 # ✌🏻 O que tem por aqui?
 
+- [Olá! Eu sou Maxwell Anderson](#olá-eu-sou-maxwell-anderson)
 - [✌🏻 O que tem por aqui?](#-o-que-tem-por-aqui)
   - [👨🏻‍🔬 Disciplinas do Ensino Técnico, Graduação e Pós-Graduação](#-disciplinas-do-ensino-técnico-graduação-e-pós-graduação)
     - [📲 Software](#-software)
     - [💻 Infraestrutura e Hardware](#-infraestrutura-e-hardware)
     - [💡 Inovação e Gestão da Inovação](#-inovação-e-gestão-da-inovação)
-    - [👨🏻‍💼 Gestão de Tecnologia da Informação](#-gestão-de-tecnologia-da-informação)
+    - [👨🏻‍💼 Gestão aplicada à Tecnologia da Informação](#-gestão-aplicada-à-tecnologia-da-informação)
     - [⚒️ Outras disciplinas](#️-outras-disciplinas)
   - [📖 Produção científica](#-produção-científica)
     - [📚 Livro](#-livro)
-    - [Patentes depositadas](#patentes-depositadas)
-    - [Softwares registrados](#softwares-registrados)
+    - [💡Patentes depositadas](#patentes-depositadas)
+    - [📲 Softwares registrados](#-softwares-registrados)
   - [⚒️ Projetos desenvolvidos](#️-projetos-desenvolvidos)
   - [🤡 Jokes](#-jokes)
   - [💾 Outros projetos pessoais públicos](#-outros-projetos-pessoais-públicos)
@@ -138,7 +140,7 @@ ___
 - Introdução à Gestão da Transferência de Tecnologia
   - Gestão de NITs e de Inovação
 
-### 👨🏻‍💼 Gestão de Tecnologia da Informação
+### 👨🏻‍💼 Gestão aplicada à Tecnologia da Informação
 
 - Administração de Sistemas de Informação
 - Fundamentos de Gestão de Serviços de TI (ITIL Básico)
@@ -156,18 +158,18 @@ ___
 
 ![image](https://user-images.githubusercontent.com/107955034/192101420-08158253-5f56-49c5-b4bb-9d2577177e90.png)
 
-- 💾 [Implantação de melhoria de processos de software com CMMI-DEV nível 2](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
+- 💾 [Implantação de melhoria de processos de software com CMMI-DEV nível 2](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)🔗
 
-### Patentes depositadas
+### 💡Patentes depositadas
 
 - BR 10 2014 021275-2 - Sistema Distribuído de Diagnóstico Veicular em Tempo Real
 - BR 10 2014 033130-1 - PIMP - Processo de implantação da melhoria de processos de desenvolvimento de software
 - BR 10 2016 004575-4 - INTELLICAR - Sistema Distribuído de Diagnóstico, Socialização de Informações e Controle Inteligente de Velocidade Máxima Permitida para Carros Inteligentes.
 - BR 10 2016 029170-4 - Sistema inteligente de acionamento automático de comutador de farois de veículos em vias regulamentadas
 
-### Softwares registrados
+### 📲 Softwares registrados
 
-- BR 51 2020 001729-0 - [Banco de Competências do IFPB - SABER IFPB](https://suap.ifpb.edu.br/bi/)
+- BR 51 2020 001729-0 - [Banco de Competências do IFPB - SABER IFPB](https://suap.ifpb.edu.br/bi/)🔗
 - BR 51 2015 000913-3 - [Simulador de escalonamento de processos em sistemas operacionais](https://maxwellamaral.github.io/escalonador/)
 
 ## ⚒️ Projetos desenvolvidos
