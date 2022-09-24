@@ -1,6 +1,6 @@
 ## Hi! I'm Maxwell Anderson
   <!-- Emojis em https://emojipedia.org/ -->
-- 👀 Estou interessado em Inovação, Engenharia de Software, Internet das Coisas
+- 👀 Sou interessado em Inovação, Engenharia de Software, Internet das Coisas
 - 🌱 Atualmente estou aprendendo IA, algoritmos quânticos, ciência de dados, desenvolvimento de software etc.
 - 📫 Como chegar até mim www.linkedin.com/in/maxwellielpo
 - 📒 Meu currículo em <http://lattes.cnpq.br/7725418498659982>
