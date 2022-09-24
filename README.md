@@ -99,6 +99,8 @@ ___
     - [⚒️ Outras disciplinas](#️-outras-disciplinas)
   - [📖 Produção científica](#-produção-científica)
     - [📚 Livro](#-livro)
+    - [Patentes depositadas](#patentes-depositadas)
+    - [Softwares registrados](#softwares-registrados)
   - [⚒️ Projetos desenvolvidos](#️-projetos-desenvolvidos)
   - [🤡 Jokes](#-jokes)
   - [💾 Outros projetos pessoais públicos](#-outros-projetos-pessoais-públicos)
@@ -155,6 +157,18 @@ ___
 ![image](https://user-images.githubusercontent.com/107955034/192101420-08158253-5f56-49c5-b4bb-9d2577177e90.png)
 
 - 💾 [Implantação de melhoria de processos de software com CMMI-DEV nível 2](http://editora.ifpb.edu.br/index.php/ifpb/catalog/book/7)
+
+### Patentes depositadas
+
+- BR 10 2014 021275-2 - Sistema Distribuído de Diagnóstico Veicular em Tempo Real
+- BR 10 2014 033130-1 - PIMP - Processo de implantação da melhoria de processos de desenvolvimento de software
+- BR 10 2016 004575-4 - INTELLICAR - Sistema Distribuído de Diagnóstico, Socialização de Informações e Controle Inteligente de Velocidade Máxima Permitida para Carros Inteligentes.
+- BR 10 2016 029170-4 - Sistema inteligente de acionamento automático de comutador de farois de veículos em vias regulamentadas
+
+### Softwares registrados
+
+- BR 51 2020 001729-0 - [Banco de Competências do IFPB - SABER IFPB](https://suap.ifpb.edu.br/bi/)
+- BR 51 2015 000913-3 - [Simulador de escalonamento de processos em sistemas operacionais](https://maxwellamaral.github.io/escalonador/)
 
 ## ⚒️ Projetos desenvolvidos
 
