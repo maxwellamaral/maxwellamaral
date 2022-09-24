@@ -103,8 +103,8 @@ ___
 #### Para leitura e estudos
 
 - [Sistema de demonstração do livro Engenharia de Software Moderna](https://github.com/maxwellamaral/esmforum)
-- [Learn Domain-Driven Design, software architecture, design patterns, best practices](https://github.com/maxwellamaral/domain-driven-hexagon)
-- [Some references for software testing (process, manual or automation)](https://github.com/maxwellamaral/SoftwareTestingBooks)
+- [Aprenda design orientado por domínio, arquitetura de software, padrões de design, práticas recomendadas](https://github.com/maxwellamaral/domain-driven-hexagon) :us:
+- [Algumas referências para teste de software (processo, manual ou automação)](https://github.com/maxwellamaral/SoftwareTestingBooks) :us:
 
 ### 💻 HTML & CSS
 
@@ -128,17 +128,17 @@ ___
 
 ## 🔗 Forks encontrados por aí
 
-- [Short JavaScript code snippets for all your development needs](https://github.com/maxwellamaral/30-seconds-of-code)
-- [A collection of full-stack resources for programmers](https://github.com/maxwellamaral/professional-programming)
-- [A collection of (mostly) technical things every software developer should know about](https://github.com/maxwellamaral/every-programmer-should-know)
-- [Curated list of project-based tutorials](https://github.com/maxwellamaral/project-based-learning)
-- [A collective list of free APIs](https://github.com/maxwellamaral/public-apis)
-- [📚 Freely available programming books](https://github.com/maxwellamaral/free-programming-books)
-- [Learn how to design large-scale systems](https://github.com/maxwellamaral/system-design-primer)
-- [A complete computer science study plan to become a software engineer](https://github.com/maxwellamaral/coding-interview-university)
-- [Master programming by recreating your favorite technologies from scratch](https://github.com/maxwellamaral/build-your-own-x)
-- [A curated list of high quality coding style conventions and standards](https://github.com/maxwellamaral/awesome-guidelines)
-- [Master the command line, in one page](https://github.com/maxwellamaral/the-art-of-command-line)
+- [Trechos de código JavaScript curtos para todas as suas necessidades de desenvolvimento](https://github.com/maxwellamaral/30-seconds-of-code) :us:
+- [Uma coleção de recursos fullstack completa para programadores](https://github.com/maxwellamaral/professional-programming) :us:
+- [Uma coleção de (principalmente) coisas técnicas que todo desenvolvedor de software deve saber sobre](https://github.com/maxwellamaral/every-programmer-should-know) :us:
+- [Lista de projetos baseados em tutoriais](https://github.com/maxwellamaral/project-based-learning) :us:
+- [Uma lista coletiva de APIs gratuitas](https://github.com/maxwellamaral/public-apis) :us:
+- [📚 Livros de programação disponíveis gratuitamente](https://github.com/maxwellamaral/free-programming-books) :us:
+- [Aprenda a projetar sistemas em larga escala](https://github.com/maxwellamaral/system-design-primer) :us:
+- [Um plano completo de estudo de ciência da computação para se tornar um engenheiro de software](https://github.com/maxwellamaral/coding-interview-university)  :us:
+- [Master programming - recriando suas tecnologias favoritas do zero](https://github.com/maxwellamaral/build-your-own-x)  :us:
+- [Uma lista de convenções e padrões de estilo de codificação de alta qualidade](https://github.com/maxwellamaral/awesome-guidelines)  :us:
+- [Domine a linha de comando, em uma página](https://github.com/maxwellamaral/the-art-of-command-line) :us:
 
 ## 📲 Projetos úteis
 
