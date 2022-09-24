@@ -95,14 +95,14 @@ ___
 > Aqui estão/estarão disponíveis os materiais e recursos didáticos utilizados em salas de aulas, palestras e minicursos.
 
 - 📲 **Software**
-  - Análise e Desenvolvimento de Sistemas
-  - Engenharia de Software
+  - [Análise e Desenvolvimento de Sistemas](https://github.com/maxwellamaral/aula_eng_soft)
+  - [Engenharia de Software](https://github.com/maxwellamaral/aula_eng_soft)
   - Desenvolvimento
     - Algorítmos e Lógica de Programação
     - Banco de Dados I e II
     - Computação Gráfica e Sistemas Multimídia (Práticas)
     - Desenvolvimento WEB
-    - HTML & CSS
+    - [HTML & CSS](https://github.com/maxwellamaral/aula_html_css)
 - 💻 **Infraestrutura e Hardware**
   - Manutenção e Montagem de Micros
   - Segurança da Informação (Básico)
@@ -122,26 +122,6 @@ ___
   - Microsoft Project para Iniciantes
 - ⚒️ **Outros**
   - Design e Criatividade
-
-### 💻 Engenharia de Software
-
-| Aqui um resumo das aulas e projetos dos alunos
-
-#### Projetos
-
-- [Análise e Projeto de Sistemas - 2022.2](https://github.com/maxwellamaral/aps2022.2)
-
-#### Para leitura e estudos
-
-- [Sistema de demonstração do livro Engenharia de Software Moderna](https://github.com/maxwellamaral/esmforum)
-- [Aprenda design orientado por domínio, arquitetura de software, padrões de design, práticas recomendadas](https://github.com/maxwellamaral/domain-driven-hexagon) :us:
-- [Algumas referências para teste de software (processo, manual ou automação)](https://github.com/maxwellamaral/SoftwareTestingBooks) :us:
-
-### 💻 HTML & CSS
-
-#### Para leitura e estudos
-
-- [Códigos das aulas](https://github.com/maxwellamaral/HTML_CSS)
 
 ## ⚒️ Outras coisas bacanas
 
