@@ -1,9 +1,9 @@
 ## Hi! I'm Maxwell Anderson
   <!-- Emojis em https://emojipedia.org/ -->
-- 👀 I’m interested in Innovation, Software Engineering, Internet of Things
-- 🌱 I’m currently learning IA, quantum algorithms, data science, software development etc.
-- 📫 How to reach me www.linkedin.com/in/maxwellielpo
-- 📒 My curriculum in http://lattes.cnpq.br/7725418498659982
+- 👀 Estou interessado em Inovação, Engenharia de Software, Internet das Coisas
+- 🌱 Atualmente estou aprendendo IA, algoritmos quânticos, ciência de dados, desenvolvimento de software etc.
+- 📫 Como chegar até mim www.linkedin.com/in/maxwellielpo
+- 📒 Meu currículo em <http://lattes.cnpq.br/7725418498659982>
 <br>
 <!-- Aqui somente trocar o nome do usuário -->
 <div align="center">
@@ -73,7 +73,7 @@
   -->
 </div>
   
-##
+___
   
  <div>
   <!-- Badges em https://dev.to/envoy_/150-badges-for-github-pnk -->
@@ -85,23 +85,69 @@
    ![snake gif](https://github.com/maxwellamaral/maxwellamaral/blob/output/github-contribution-grid-snake.svg)
 
 </div>
- 
-# Páginas e projetos destacados
-  
-## Engenharia de Software
 
-### Processo para implantação de melhoria de processos de desenvolvimento de software
+---
 
-Este trabalho está inserido no contexto da implantação de melhoria de processos de desenvolvimento de software e objetiva descrever  a estrutura e a organização do Processo de Implantação de Melhoria de Processos de Software (PIMP), desenvolvido e proposto para implantação de quaisquer abordagens e modelos de qualidade. Foram elaborados um modelo de ciclo de vida, um processo detalhado e navegável, sistemático e adaptável, descrevendo atividades, papéis responsáveis e participantes de uma atividade de implantação, e modelos de artefatos foram desenvolvidos para prover apoio ao processo de implantação da melhoria. 
+# ✌🏻 O que tem por aqui?
 
-Palavras-chave
-Melhoria de processos de software; Implantação; Engenharia de Software.
+## 👨🏻‍🔬 Aulas do Ensino Técnico e Superior
 
-* 📲 Disponível em https://maxwellamaral.github.io/PIMP/
-  
-### Simulador de escalonamento de processos em sistemas operacionais 
+### 💻 Engenharia de Software
 
-Aqui temos um simulador de escalonamento de processos de um sistema operacional multitarefa moderno que pode ser baixado e utilizado em sala de aula.
+| Aqui um resumo das aulas e projetos dos alunos
 
-* ✍🏻 Descrição geral disponível em https://maxwellamaral.github.io/escalonador/
-* 💾 Download em https://github.com/maxwellamaral/escalonador/raw/main/Escalonador.exe
+#### Projetos
+
+- [Análise e Projeto de Sistemas - 2022.2](https://github.com/maxwellamaral/aps2022.2)
+
+#### Para leitura e estudos
+
+- [Sistema de demonstração do livro Engenharia de Software Moderna](https://github.com/maxwellamaral/esmforum)
+- [Learn Domain-Driven Design, software architecture, design patterns, best practices](https://github.com/maxwellamaral/domain-driven-hexagon)
+- [Some references for software testing (process, manual or automation)](https://github.com/maxwellamaral/SoftwareTestingBooks)
+
+### 💻 HTML & CSS
+
+#### Para leitura e estudos
+
+- [Códigos das aulas](https://github.com/maxwellamaral/HTML_CSS)
+
+## ⚒️ Outras coisas bacanas
+
+- [Processo para implantação de melhoria de processos de desenvolvimento de software - PIMP](https://maxwellamaral.github.io/PIMP/)
+
+- [Simulador de escalonamento de processos em sistemas operacionais](https://maxwellamaral.github.io/escalonador/)
+
+## 🤡 Jokes
+
+- [Einstein - Responde a qualquer pergunta pessoal](https://github.com/maxwellamaral/einstein)
+
+## 💾 Projetos pessoais
+
+- [Meu primeiro blockchain](https://github.com/maxwellamaral/blockchain_first)
+
+## 🔗 Forks encontrados por aí
+
+- [Short JavaScript code snippets for all your development needs](https://github.com/maxwellamaral/30-seconds-of-code)
+- [A collection of full-stack resources for programmers](https://github.com/maxwellamaral/professional-programming)
+- [A collection of (mostly) technical things every software developer should know about](https://github.com/maxwellamaral/every-programmer-should-know)
+- [Curated list of project-based tutorials](https://github.com/maxwellamaral/project-based-learning)
+- [A collective list of free APIs](https://github.com/maxwellamaral/public-apis)
+- [📚 Freely available programming books](https://github.com/maxwellamaral/free-programming-books)
+- [Learn how to design large-scale systems](https://github.com/maxwellamaral/system-design-primer)
+- [A complete computer science study plan to become a software engineer](https://github.com/maxwellamaral/coding-interview-university)
+- [Master programming by recreating your favorite technologies from scratch](https://github.com/maxwellamaral/build-your-own-x)
+- [A curated list of high quality coding style conventions and standards](https://github.com/maxwellamaral/awesome-guidelines)
+- [Master the command line, in one page](https://github.com/maxwellamaral/the-art-of-command-line)
+
+## 📲 Projetos úteis
+
+- [Django tenants using PostgreSQL Schemas](https://github.com/maxwellamaral/django-tenants)
+- [A simple Blockchain in Python](https://github.com/maxwellamaral/blockchain)
+- [Hide JavaScript code in an Electron application](https://github.com/maxwellamaral/electron-asar-encrypt-demo)
+- [Desktop app with django and electron](https://github.com/maxwellamaral/electron-django)
+- [Python server for tk102-2 compatible GPS trackers](https://github.com/maxwellamaral/tk102-server)
+
+## 📲 Infraestrutura
+
+- [AdGuard Home filter lists converted from hosts files](https://github.com/maxwellamaral/adguardhome-filters)
