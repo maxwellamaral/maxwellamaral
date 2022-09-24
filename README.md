@@ -1,4 +1,4 @@
-## Hi! I'm Maxwell Anderson 🇧🇷🇩🇬🇺🇲
+## Hi! I'm Maxwell Anderson
   <!-- Emojis em https://emojipedia.org/ -->
 - 👀 Sou interessado em Inovação, Engenharia de Software, Internet das Coisas
 - 🌱 Atualmente estou aprendendo IA, algoritmos quânticos, ciência de dados, desenvolvimento de software etc.
@@ -90,7 +90,38 @@ ___
 
 # ✌🏻 O que tem por aqui?
 
-## 👨🏻‍🔬 Aulas do Ensino Técnico e Superior
+## 👨🏻‍🔬 Disciplinas do Ensino Técnico, Graduação e Pós-Graduação
+
+> Aqui estão/estarão disponíveis os materiais e recursos didáticos utilizados em salas de aulas, palestras e minicursos.
+
+- 📲 **Software**
+  - Análise e Desenvolvimento de Sistemas
+  - Engenharia de Software
+  - Desenvolvimento
+    - Algorítmos e Lógica de Programação
+    - Banco de Dados I e II
+    - Computação Gráfica e Sistemas Multimídia (Práticas)
+    - Desenvolvimento WEB
+    - HTML & CSS
+- 💻 **Infraestrutura e Hardware**
+  - Manutenção e Montagem de Micros
+  - Segurança da Informação (Básico)
+  - Sistemas Operacionais Abertos
+- 💡 **Inovação e Gestão da Inovação**
+  - Introdução à Propriedade Intelectual (PI)
+    - Busca de anterioridades (patentes, programas de computador, desenho industrial)
+    - Redação de patentes
+  - Introdução à Gestão de PI
+  - Introdução à Gestão da Transferência de Tecnologia
+  - Gestão de NITs e de Inovação
+- 👨🏻‍💼 **Gestão de Tecnologia da Informação**
+  - Administração de Sistemas de Informação
+  - Fundamentos de Gestão de Serviços de TI (ITIL Básico)
+  - Gerenciamento Avançado de Serviços de TI (ITIL Avançado)
+  - Gerenciamento de Projetos (PMBOK)
+  - Microsoft Project para Iniciantes
+- ⚒️ **Outros**
+  - Design e Criatividade
 
 ### 💻 Engenharia de Software
 
@@ -128,24 +159,24 @@ ___
 
 ## 🔗 Forks encontrados por aí
 
-- [Trechos de código JavaScript curtos para todas as suas necessidades de desenvolvimento](https://github.com/maxwellamaral/30-seconds-of-code) :us:
-- [Uma coleção de recursos fullstack completa para programadores](https://github.com/maxwellamaral/professional-programming) :us:
-- [Uma coleção de (principalmente) coisas técnicas que todo desenvolvedor de software deve saber sobre](https://github.com/maxwellamaral/every-programmer-should-know) :us:
-- [Lista de projetos baseados em tutoriais](https://github.com/maxwellamaral/project-based-learning) :us:
-- [Uma lista coletiva de APIs gratuitas](https://github.com/maxwellamaral/public-apis) :us:
 - [📚 Livros de programação disponíveis gratuitamente](https://github.com/maxwellamaral/free-programming-books) :us:
 - [Aprenda a projetar sistemas em larga escala](https://github.com/maxwellamaral/system-design-primer) :us:
-- [Um plano completo de estudo de ciência da computação para se tornar um engenheiro de software](https://github.com/maxwellamaral/coding-interview-university)  :us:
-- [Master programming - recriando suas tecnologias favoritas do zero](https://github.com/maxwellamaral/build-your-own-x)  :us:
-- [Uma lista de convenções e padrões de estilo de codificação de alta qualidade](https://github.com/maxwellamaral/awesome-guidelines)  :us:
 - [Domine a linha de comando, em uma página](https://github.com/maxwellamaral/the-art-of-command-line) :us:
+- [Lista de projetos baseados em tutoriais](https://github.com/maxwellamaral/project-based-learning) :us:
+- [Master programming - recriando suas tecnologias favoritas do zero](https://github.com/maxwellamaral/build-your-own-x)  :us:
+- [Trechos de código JavaScript curtos para todas as suas necessidades de desenvolvimento](https://github.com/maxwellamaral/30-seconds-of-code) :us:
+- [Um plano completo de estudo de ciência da computação para se tornar um engenheiro de software](https://github.com/maxwellamaral/coding-interview-university)  :us:
+- [Uma coleção de (principalmente) coisas técnicas que todo desenvolvedor de software deve saber sobre](https://github.com/maxwellamaral/every-programmer-should-know) :us:
+- [Uma coleção de recursos fullstack completa para programadores](https://github.com/maxwellamaral/professional-programming) :us:
+- [Uma lista coletiva de APIs gratuitas](https://github.com/maxwellamaral/public-apis) :us:
+- [Uma lista de convenções e padrões de estilo de codificação de alta qualidade](https://github.com/maxwellamaral/awesome-guidelines)  :us:
 
 ## 📲 Projetos úteis
 
-- [Django tenants using PostgreSQL Schemas](https://github.com/maxwellamaral/django-tenants)
 - [A simple Blockchain in Python](https://github.com/maxwellamaral/blockchain)
-- [Hide JavaScript code in an Electron application](https://github.com/maxwellamaral/electron-asar-encrypt-demo)
 - [Desktop app with django and electron](https://github.com/maxwellamaral/electron-django)
+- [Django tenants using PostgreSQL Schemas](https://github.com/maxwellamaral/django-tenants)
+- [Hide JavaScript code in an Electron application](https://github.com/maxwellamaral/electron-asar-encrypt-demo)
 - [Python server for tk102-2 compatible GPS trackers](https://github.com/maxwellamaral/tk102-server)
 
 ## 📲 Infraestrutura
