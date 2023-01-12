@@ -6,12 +6,13 @@
 - 📫 Como chegar até mim www.linkedin.com/in/maxwellielpo
 - 📒 Meu currículo em <http://lattes.cnpq.br/7725418498659982>
 
-<!-- Aqui somente trocar o nome do usuário -->
+<!-- Aqui somente trocar o nome do usuário 
 <div align="center">
   <a href="https://github.com/maxwellamaral">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=maxwellamaral&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxwellamaral&layout=compact&langs_count=7&theme=dark"/>
 </div>
+-->
 <!-- https://devicon.dev/ -->
 <div style="display: inline_block"><br>
   <h3>🛠️ Tech stack</h3>
