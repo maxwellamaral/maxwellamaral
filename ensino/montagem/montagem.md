@@ -2,4 +2,4 @@
 
 ## Introdução
 
-1. [Sistemas de numeração](sistemas_numeracao.md)
+1. [Sistemas de numeração](./sistemas_numeracao.md)
