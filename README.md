@@ -128,7 +128,7 @@ ___
 
 ### 💻 Infraestrutura e Hardware
 
-- Manutenção e Montagem de Micros
+- [Manutenção e Montagem de Micros](https://github.com/maxwellamaral/maxwellamaral/blob/main/ensino/montagem/sistemas_numeracao.md)
 - Segurança da Informação (Básico)
 - Sistemas Operacionais Abertos
 
