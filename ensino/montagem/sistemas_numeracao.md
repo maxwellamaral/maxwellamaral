@@ -133,6 +133,8 @@ Tabela 4 - Prefixos do SI
 
 Fonte: NIST. _SI Prefixes_, disponível em https://physics.nist.gov/cuu/Units/prefixes.html
 
+### Unidades de medidas computacionais
+
 As unidades de medida mais utilizadas na computação são: bit, byte, kilobyte, megabyte, gigabyte, terabyte, petabyte, exabyte, zettabyte e yottabyte. A tabela 5 apresenta a relação entre as unidades de medida.
 
 Tabela 5 - Unidades de medida da ISO
@@ -197,5 +199,52 @@ Tabela 6 - Unidades de medida da Norma IEC 60027-2
 |Zebibyte|ZiB|1024 exbibytes| 1 ZiB = 1.180.591.620.717.411.303.424 bytes|
 |Yobibyte|YiB|1024 zebibytes| 1 YiB = 1.208.925.819.614.629.174.706.176 bytes|
 
-
 > Ficou curioso? Veja mais em https://pt.wikipedia.org/wiki/Quibiocteto (Acessado em 13/03/2023).
+
+### Unidades de medidas de comprimento para computadores e periféricos
+
+Componentes de hardware utilizam unidades de medidas de comprimento para especificar suas dimensões. As unidades mais comuns são:
+
+* Polegada (in)
+* Metro (m)
+
+Uma polegada corresponde a 2,54 cm. A polegada é uma unidade de medida de comprimento usada no sistema imperial de medidas e é utilizada para especificar as dimensões de componentes de hardware, como monitores, impressoras, teclados, etc.
+
+Por exemplo, um monitor de 17" tem 17 polegadas medidas a partir da diagonal da tela. 
+
+O metro (m) é a unidade de medida de comprimento no Sistema Internacional de Unidades (SI). 
+
+> **Curiosidade 👀**
+> 
+> O metro é definido como a distância percorrida pela luz no vácuo durante um intervalo de tempo de 1/299.792.458 de um segundo.
+
+Utilizamos as subdimensões do metro para especificar as dimensões de componentes de hardware, como placas-mãe, placas de vídeo, etc. Um transistor, por exemplo, é medido em micrômetros (µm) ou nanômetros (nm).
+
+A tabela 7 apresenta as unidades de medida de comprimento em ordem decrescente.
+
+Tabela 7 - Unidades de medida de comprimento
+
+|Sufixo|Símbolo|Potência|Quantidade|
+|:-|:-|:-|:-|
+|Metro|m|-|1|
+|Decímetro|dm|10<sup>-1</sup>|0,1|
+|Centímetro|cm|10<sup>-2</sup>|0,01|
+|Milímetro|mm|10<sup>-3</sup>|0,001|
+|Micrômetro|µm|10<sup>-6</sup>|0,000001|
+|Nanômetro|nm|10<sup>-9</sup>|0,000000001|
+|Picômetro|pm|10<sup>-12</sup>|0,000000000001|
+|Fentômetro|fm|10<sup>-15</sup>|0,000000000000001|
+|Atômetro|am|10<sup>-18</sup>|0,000000000000000001|
+
+Atualmente, é possível encontrar processadores com transistores no tamanho de 22 nm, ou seja, 22 bilionésimos de metro ou 22 milionésimos de milímetro, já que um nanômetro é 1 milímetro dividido por 1.000.000.
+
+Figura 3 - Escalas de transistores no mundo
+
+![Quão pequeno pode ser un transistor?](https://blog.novaeletronica.com.br/img/O-pequeno-trasistor.jpg)
+
+Figura 4 - Microfotografia do menor transistor de diamante do mundo
+
+![Microfotografia do menor transistor de diamante do mundo](https://www.inovacaotecnologica.com.br/noticias/imagens/010110090506-transistor-diamante.jpg)
+
+Microfotografia do menor transístor de diamante do mundo (50nm), feito com um filme de diamante sintético, fabricado por meio de uma técnica chamada deposição de vapor químico. [Imagem: David Moran/Univ. Glasgow. 2009]
+
